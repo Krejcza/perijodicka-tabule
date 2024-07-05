@@ -1,0 +1,228 @@
+
+
+.studium-materijals-text-hswj{
+   display: flex;
+   flex-direction: row;
+   column-gap: 2rem;
+   row-gap: 2rem;
+   align-items: center;
+}
+
+.studium-materijals-text-hswj p{
+   flex: 3;
+   font-size: 1.5rem;
+   color: #323232;
+   font-weight: 500;
+}
+
+.studium-materijals-text-hswj svg{
+   flex: 2;
+   height: 400px;
+}
+
+.studium-materijals-text-hswj.reversed-tws{
+   display: flex;
+   flex-direction: row-reverse;
+   column-gap: 2rem;
+   row-gap: 2rem;
+   align-items: center;
+   margin-bottom: 5rem;
+}
+
+.studium-materijals-text-hswj.reversed-tws svg{
+   height: 300px;
+}
+
+.svg-kick-wrap{
+   margin-top: 2rem;
+   margin-bottom: 10rem;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.svg-kick-wrap svg{
+   height: 400px;
+   width: auto;
+}
+
+
+
+.menu-crcl-rnd-wrapper{
+   width: 900px;
+   height: 900px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 5px solid #323232;
+   background: linear-gradient(45deg,#C8B1E4, #9B72CF);
+   border-radius: 50px;
+   margin-bottom: 5rem;
+}
+
+.menu-crcl-rnd{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   width: 300px;
+   height: 300px;
+   transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+
+.menu-crcl-rnd:hover{
+   transform: scale(0.9);
+}
+
+.menu-crcl-rnd.activehsj:hover{
+   transform: scale(1);
+}
+
+.menu-crcl-rnd li{
+   position: absolute;
+   left: -50%;
+   list-style: none;
+   transform-origin: 300px;
+   transition: 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);
+   transition-delay: calc(0.1s * var(--i));
+   transform: rotate(0deg) translateX(250px);
+}
+
+.menu-crcl-rnd.activehsj li{
+   transform: rotate(calc(360deg/8 * var(--i)));
+}
+
+.menu-crcl-rnd li a{
+   position: relative;
+   background: linear-gradient(45deg,#532B88, #9B72CF);
+   display: flex;
+   align-items: center;
+   width: 120px;
+   height: 120px;
+   padding: 15px;
+   font-size: 1rem;
+   font-weight: 600;
+   border-radius: 25px;
+   transform: rotate(calc(360deg/-8 * var(--i)));
+   color: #F4EFFA;
+   transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+   text-decoration: none;
+   border: 3px solid #323232;
+}
+
+.menu-crcl-rnd li a span {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 150px;
+   opacity: 0;
+   background-color: #2F184B;
+   padding: 15px;
+   border-radius: 10px;
+   transition: 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+   pointer-events: none;
+   color: #F4EFFA;
+   font-size: 1rem;
+   font-weight: 600;
+}
+
+.menu-crcl-rnd li a span i{
+   margin-left: 8px;
+}
+
+
+.menu-crcl-rnd li a:hover span {
+   font-weight: 600;
+   font-size: 1rem;
+   background-color: #2F184B;
+   color: #F4EFFA;
+   transition-delay: 0.6s;
+   opacity: 1;
+   transform: translate(calc(-50% - var(--x)), calc(-50% - var(--y)));
+}
+
+.menu-crcl-rnd li a:hover{
+   color: #C8B1E4;
+   border-radius: 50px;
+   transform: rotate(calc(360deg - var(--i)*45deg));
+   font-weight: 500;
+}
+
+.menu-crcl-rnd li:hover{
+   transform:rotate(calc(360deg / 8 * var(--i))) translateX(-10px);
+   transition-delay: 0.25s;
+}
+
+.toggle-crc-rnd{
+   position: absolute;
+   width: 200px;
+   height: 200px;
+   background: #2F184B;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 50;
+   border-radius: 25px;
+   cursor: pointer;
+   color: #F4EFFA;
+   font-size: 2rem;
+   transition:1.25s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.menu-crcl-rnd.activehsj .toggle-crc-rnd{
+   transform: rotate(315deg);
+   width: 100px;
+   height: 100px;
+}
+
+.toggle-crc-rnd.opentzs{
+   background: #9B72CF;
+   color: #2F184B;
+   border-radius: 50%;
+}
+
+.no-pointer-events {
+   pointer-events: none;
+}
+
+
+
+
+
+@media only screen and (max-width: 1000px){
+   .studium-materijals-text-hswj{
+      display: flex;
+      flex-direction: column;
+      column-gap: 2rem;
+      row-gap: 2rem;
+      align-items: center;
+   }
+
+
+   .studium-materijals-text-hswj.reversed-tws{
+      display: flex;
+      flex-direction: column;
+      column-gap: 2rem;
+      row-gap: 2rem;
+      align-items: center;
+   }
+}
+
+
+@media only screen and (max-width: 600px){
+   .studium-materijals-text-hswj p{
+      font-size: 1rem;
+      color: #323232;
+      font-weight: 500;
+   }
+   
+   .studium-materijals-text-hswj.reversed-tws p{
+      font-size: 1rem;
+      color: #323232;
+      font-weight: 500;
+   }
+}
+

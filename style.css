@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+@font-face{
+   font-family: OhWhale;
+   src: url(Oh\ Whale\ -\ TTF.ttf);
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Quicksand', sans-serif;
+   scroll-behavior: smooth;
+}
+
+*::selection{
+   color: #C8B1E4;
+   background-color: #2F184B;
+}
+
+
+.row{
+   max-width: 1600px;
+   margin: 0 auto;
+   padding: 0 30px;
+}
+
+
+.name-of-heading{
+   font-size: 2rem;
+   color: #2F184B;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 2rem;
+   margin-top: 2rem;
+}
+
+.white-box-upper{
+   content: '';
+   height: 100px;
+}
+
+
+.main-top-topic{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-size: 2rem;
+   color: #2F184B;
+   font-weight: 700;
+   margin-bottom: 2rem;
+}
+
+.main-top-topic svg{
+   height: 50px;
+}
+
+.main-upper-text{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.main-upper-text p{
+   font-size: 1.5rem;
+   color: #323232;
+   font-weight: 500;
+   margin-bottom: 2rem;
+}
+
+.main-upper-text svg{
+   width: 350px;
+   height: auto;
+}
+
+.main-upper-text p .first-ps{
+   color: #532B88;
+   font-weight: 600;
+}
+
+.main-upper-text p .second-ps{
+   color: #9B72CF;
+   font-weight: 600;
+}
+
+
+.background-alt-pgs{
+   background-image: url('data:image/svg+xml,<svg width="3621" height="7269" viewBox="0 0 3621 7269" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(%23filter0_f_0_1)"><path d="M3146.02 1957C3146.02 1471.5 82 1779.5 82 1219.87C82 660.244 1818.57 824.5 2101.02 725.5C2383.47 626.5 2618.41 334 2852.85 214C3087.29 94 3596 25 3596 25V3972.58C3596 3972.58 3058.47 4432.53 3058.47 3972.58C3058.47 3512.63 2222.25 3405.14 2168.35 2901.69C2114.44 2398.25 3146.02 2442.5 3146.02 1957Z" fill="url(%23paint0_linear_0_1)" fill-opacity="0.5"/></g><g filter="url(%23filter1_f_0_1)"><path d="M1846.11 4455.61C2015.89 3808.58 852.216 3393.56 746.942 2899.54C641.669 2405.51 180.875 2267.59 25 2175V5867C25 5867 151.431 5700.67 229.869 5557.16C308.307 5413.66 361.975 5242.65 667.471 5053.14C972.968 4863.63 1676.33 5102.64 1846.11 4455.61Z" fill="url(%23paint1_linear_0_1)" fill-opacity="0.5"/></g><g filter="url(%23filter2_f_0_1)"><path d="M1696.83 6064C1737.93 5572 2237.96 5368 2497.08 5238C2756.2 5108 3326.99 4934 3596 4934V7244C3596 7244 3445.11 6313 3086.08 6296C2727.06 6279 2687.54 7223.57 2379.49 7105C2071.44 6986.43 1655.72 6556 1696.83 6064Z" fill="url(%23paint2_linear_0_1)" fill-opacity="0.5"/></g><defs><filter id="filter0_f_0_1" x="57" y="0" width="3564" height="4202" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur stdDeviation="12.5" result="effect1_foregroundBlur_0_1"/></filter><filter id="filter1_f_0_1" x="0" y="2150" width="1888" height="3742" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur stdDeviation="12.5" result="effect1_foregroundBlur_0_1"/></filter><filter id="filter2_f_0_1" x="1669" y="4909" width="1952" height="2360" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur stdDeviation="12.5" result="effect1_foregroundBlur_0_1"/></filter><linearGradient id="paint0_linear_0_1" x1="1839" y1="25" x2="1839" y2="4177" gradientUnits="userSpaceOnUse"><stop stop-color="%23C8B1E4"/><stop offset="0.75" stop-color="%239B72CF"/></linearGradient><linearGradient id="paint1_linear_0_1" x1="944" y1="2175" x2="944" y2="5867" gradientUnits="userSpaceOnUse"><stop stop-color="%23C8B1E4"/><stop offset="0.75" stop-color="%239B72CF"/></linearGradient><linearGradient id="paint2_linear_0_1" x1="2645" y1="4934" x2="2645" y2="7244" gradientUnits="userSpaceOnUse"><stop stop-color="%23C8B1E4"/><stop offset="0.75" stop-color="%239B72CF"/></linearGradient></defs></svg>');
+   z-index: -1;
+   background-position: top center;
+   background-size: cover;
+   background-repeat: repeat-y;
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+   .row{
+      padding: 0 10px;
+   }
+
+   
+   .name-of-heading{
+      font-size: 1.5rem;
+      color: #2F184B;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+   }
+
+   .main-top-topic{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 1.25rem;
+      color: #2F184B;
+      font-weight: 700;
+      margin-bottom: 2rem;
+   }
+
+   .main-top-topic svg{
+      display: none;
+   }
+
+   .main-upper-text p{
+      font-size: 1rem;
+      color: #323232;
+      font-weight: 500;
+   }
+   
+   .main-upper-text svg{
+      width: 250px;
+      height: auto;
+   }
+}
+
+

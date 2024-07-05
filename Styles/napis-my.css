@@ -1,0 +1,414 @@
+.form-write-me{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 5rem 0;
+}
+
+
+
+.form-wrapper{
+   width: 80%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 700px;
+   background: linear-gradient(45deg,#C8B1E4, #9B72CF);
+   border-radius: 50px;
+   border: 5px solid #323232;
+}
+
+.form-ind-picks{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   padding: 30px;
+}
+
+.form-ind-picks label{
+   margin-bottom: 1rem;
+   font-size: 1.5rem;
+   font-weight: 600;
+   color: #2F184B;
+}
+
+.upper-lowe-part-combined{
+   display: flex;
+   flex-direction: row;
+   column-gap: 2rem;
+   row-gap: 2rem;
+}
+
+.form-right-upper-part{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   column-gap: 2rem;
+   flex: 1;
+}
+
+.form-left-down-part{
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+}
+
+.namesss, .genderrr, .emailll, .messageee{
+   padding: 10px 20px;
+   font-size: 1.5rem;
+   font-weight: 500;
+   margin-bottom: 2rem;
+   border-radius: 25px;
+   outline: none;
+   border: none;
+   border: 5px solid #323232;
+   transition: 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+   background: #F4EFFA;
+}
+
+.namesss, .genderrr, .emailll, .messageee:focus{
+   color: #532B88;
+}
+
+.namesss{
+   height: 75px;
+}
+
+.namesss:active{
+   background-color: #C8B1E4;
+}
+
+.genderrr{
+   height: 75px;
+}
+
+.genderrr:active{
+   background-color: #C8B1E4;
+}
+
+.emailll{
+   height: 75px;
+}
+
+.emailll:active{
+   background-color: #C8B1E4;
+}
+
+.messageee{
+   height: 100%;
+   resize: none;
+}
+
+.messageee:active{
+   background-color: #C8B1E4;
+}
+
+.send-it-bro{
+   width: 100%;
+   outline: none;
+   border: none;
+   background:#532B88;
+   color: #F4EFFA;
+   height: 75px;
+   border-radius: 25px;
+   font-size: 1.5rem;
+   font-weight: 500;
+   cursor: pointer;
+   border: 5px solid #323232;
+   transition: 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.send-it-bro:hover{
+   background: #C8B1E4;
+   color: #2F184B;
+}
+
+
+
+
+
+
+
+.main-low-text{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   column-gap: 2rem;
+   row-gap: 5rem;
+   margin-bottom: 10rem;
+}
+
+.main-low-text p{
+   font-size: 1.5rem;
+   font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+.social-media-tags ul {
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   justify-content: space-around;
+ }
+ 
+ .social-media-tags ul li {
+   list-style: none;
+ }
+
+ .part-social{
+   display: flex;
+   flex-direction: row;
+ }
+ 
+ .social-media-tags ul li a {
+   width: 80px;
+   height: 80px;
+   background-color: #F4EFFA;
+   text-align: center;
+   line-height: 80px;
+   font-size: 35px;
+   margin: 0 10px;
+   display: block;
+   border-radius: 50%;
+   position: relative;
+   overflow: hidden;
+   border: 3px solid #323232;
+   z-index: 1;
+ }
+ 
+ .social-media-tags ul li a .icon {
+   position: relative;
+   color: #262626;
+   transition: .5s;
+   z-index: 3;
+ }
+ 
+ .social-media-tags ul li a:hover .icon {
+   color: #F4EFFA;
+   transform: rotateY(360deg);
+ }
+ 
+ .social-media-tags ul li a:before {
+   content: "";
+   position: absolute;
+   top: 100%;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: #f00;
+   transition: .5s;
+   z-index: 2;
+ }
+ 
+ .social-media-tags ul li a:hover:before {
+   top: 0;
+ }
+ 
+ .social-tag.one a:before{
+   background: #3b5999;
+ }
+ 
+ .social-tag.two a:before{
+   background: #F56040;
+ }
+ 
+ .social-tag.three a:before {
+   background: #0077b5;
+ }
+ 
+ .social-tag.four a:before {
+   background: #21262d;
+ }
+
+
+
+
+ @media only screen and (max-width: 1200px){
+   .form-wrapper{
+      width: 80%;
+      display: flex;
+      height: auto;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(45deg,#C8B1E4, #9B72CF);
+      border-radius: 40px;
+      border: 5px solid #323232;
+   }
+
+   .namesss, .genderrr, .emailll, .messageee{
+      padding: 5px 30px;
+      border-radius: 20px;
+   }
+   
+   .form-ind-picks{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 30px;
+   }
+
+
+   .namesss{
+      height: 55px;
+   }
+   
+   .genderrr{
+      height: 55px;
+   }
+
+   .emailll{
+      height: 55px;
+   }
+   
+   .send-it-bro{
+      width: 100%;
+      outline: none;
+      border: none;
+      background:#532B88;
+      color: #F4EFFA;
+      height: 55px;
+      border-radius: 20px;
+      font-weight: 500;
+      cursor: pointer;
+      border: 5px solid #323232;
+      transition: 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+   }
+ }
+
+
+ @media only screen and (max-width: 1000px){
+   .form-wrapper{
+      width: 100%;;
+   }
+   
+   .form-ind-picks{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 20px;
+   }
+   
+   .form-ind-picks label{
+      margin-bottom: 1rem;
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #2F184B;
+      text-align: center;
+   }
+
+   .namesss, .genderrr, .emailll, .messageee{
+      padding: 5px 20px;
+      margin-bottom: 1rem;
+      font-size: 1.25rem;
+   }
+   
+   .upper-lowe-part-combined{
+      display: flex;
+      flex-direction: column;
+      column-gap: 2rem;
+      row-gap: 2rem;
+   }
+   
+   .form-right-upper-part{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      column-gap: 2rem;
+      flex: 1;
+   }
+   
+   .form-left-down-part{
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+   }
+ 
+   .namesss{
+      height: 50px;
+   }
+
+   .messageee{
+      height: 250px;
+      resize: none;
+   }
+
+   
+   .send-it-bro{
+      font-size: 1.25rem;
+      font-weight: 500;
+   }
+ }
+
+
+ @media only screen and (max-width: 600px){
+   .part-social{
+      display: flex;
+      flex-direction: column;
+      column-gap: 2rem;
+      row-gap: 2rem;
+    }
+
+   .main-low-text p{
+      font-size: 1rem;
+      font-weight: 500;
+   }
+   
+   .form-ind-picks label{
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #2F184B;
+      text-align: center;
+   }
+
+   .namesss, .genderrr, .emailll, .messageee{
+      margin-bottom: 1rem;
+      font-size: 1rem;
+   }
+   
+   .upper-lowe-part-combined{
+      display: flex;
+      flex-direction: column;
+      column-gap: 2rem;
+      row-gap: 2rem;
+   }
+   
+   .form-right-upper-part{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      column-gap: 2rem;
+      flex: 1;
+   }
+   
+   .form-left-down-part{
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+   }
+ 
+   .namesss{
+      height: 50px;
+   }
+
+   .messageee{
+      height: 200px;
+      resize: none;
+   }
+
+   
+   .send-it-bro{
+      font-size: 1rem;
+      font-weight: 500;
+   }
+ }
+   
+
+ 
