@@ -210,32 +210,100 @@
    </section>
 
 
+   <div class="search-bar-per-tbl row">
+      <div class="one-part-filt-ss">
+         <label for="search-input">Vihledej prvek</label>
+         <input type="text" id="search-input">
+         <label for="category-filter">Vyber kategorijy</label>
+         <select id="category-filter"> 
+            <option value="">Všecky kategorije</option>
+            <option value="Nekovy">Nekovy</option>
+            <option value="Alkalycký kovy">Alkalycký kovy</option>
+            <option value="Alkalycký zemyny">Alkalycký zemyny</option>
+            <option value="Vzácný plyny">Vzácný plyny</option>
+            <option value="Halogeny">Halogeny</option>
+            <option value="Polokovy">Polokovy</option>
+            <option value="Kovy">Kovy</option>
+            <option value="Lanthanojdy">Lanthanojdy</option>
+            <option value="Aktinoidy">Aktinoidy</option>
+            <option value="Přechodný kovy">Přechodný kovy</option>
+         </select>
+         
+         <div class="skupenstvi-wrap">
+            <h3>Skupenství</h3>
+            <div class="skupenstvxxx">
+               <button>Pevný</button>
+               <button>Plynový</button>
+               <button>Kapalný</button>
+            </div>
+         </div>
+      </div>
 
-
-   <div class="search-bar-per-tbl">
-      <label for="search-input">Vihledej prvek</label>
-      <input type="text" id="search-input">
-      <label for="category-filter">Vyber kategorijy</label>
-      <select id="category-filter">
-         <option value="">Všechny kategorie</option>
-         <option value="Nekovy">Nekovy</option>
-         <option value="Alkalycký kovy">Alkalycký kovy</option>
-         <option value="Alkalycký zemyny">Alkalycký zemyny</option>
-         <option value="Vzácný plyny">Vzácný plyny</option>
-         <option value="Halogeny">Halogeny</option>
-         <option value="Polokovy">Polokovy</option>
-         <option value="Kovy">Kovy</option>
-         <option value="Lanthanojdy">Lanthanojdy</option>
-         <option value="Aktinoidy">Aktinoidy</option>
-         <option value="Přechodný kovy">Přechodný kovy</option>
-       </select>
-       <label for="check-radioactive">Jěnom radijoaktivňí</label>
-       <input type="checkbox" name="" id="check-radioactive">
+      <div class="two-part-filt-ss">
+         <div class="radioactive-shyt">
+            <label for="check-radioactive">Radijoaktivňí prvky <i class="fa-solid fa-radiation"></i></label>
+            <input type="checkbox" name="" id="check-radioactive">
+         </div>
+         <div class="degrees-elemnt">
+            <label for="temperatureRange">Teplota:</label>
+            <input type="range" id="temperatureRange" min="-280" max="5600" value="0" class="slider">
+            <span id="temperatureValue"></span>
+         </div>
+      </div>
    </div>
 
+
 <div class="table-wrap-pap-wrp row">
+   
    <div class="table-wrapper">
       <div class="table" id="table">
+      </div>
+      <div class="napoveda-wrap">
+         <div class="napoveda-txt">
+            <h3>Tohle jě nápovjeda</h3>
+         </div>
+         <div class="napovedy-all">
+            <div class="napoveda-one-only">
+               <i class="fa-solid fa-flask-vial polyatomic only-txt-laxtt"></i>
+               <p>Nekovy</p>
+            </div>
+            <div class="napoveda-one-only">
+               <i class="fa-solid fa-flask-vial alkali only-txt-laxtt"></i>
+               <p>Alkalycký kovy</p>
+            </div>
+            <div class="napoveda-one-only">
+               <i class="fa-solid fa-flask-vial alkaline only-txt-laxtt"></i>
+               <p>Alkalycký zemyny</p>
+            </div>
+            <div class="napoveda-one-only">
+               <i class="fa-solid fa-flask-vial  noble only-txt-laxtt"></i>
+               <p>Vzácný plyny</p>
+            </div>
+            <div class="napoveda-one-only">
+               <i class="fa-solid fa-flask-vial diatomic only-txt-laxtt"></i>
+               <p>Halogeny</p>
+            </div>
+            <div class="napoveda-one-only">
+               <i class="fa-solid fa-flask-vial metalloid only-txt-laxtt "></i>
+               <p>Polokovy</p>
+            </div>
+            <div class="napoveda-one-only">
+               <i class="fa-solid fa-flask-vial post-transition only-txt-laxtt"></i>
+               <p>Kovy</p>
+            </div>
+            <div class="napoveda-one-only">
+               <i class="fa-solid fa-flask-vial lanthanide only-txt-laxtt"></i>
+               <p>Lanthanojdy</p>
+            </div>
+            <div class="napoveda-one-only">
+               <i class="fa-solid fa-flask-vial actinide only-txt-laxtt"></i>
+               <p>Aktinoidy</p>
+            </div>
+            <div class="napoveda-one-only">
+               <i class="fa-solid fa-flask-vial transition only-txt-laxtt"></i>
+               <p>Přechodný kovy</p>
+            </div>
+         </div>
       </div>
    </div>
 </div>
@@ -243,7 +311,7 @@
    <div class="element-details-wrapper row">
       <div id="element-details" class="hidden">
          <div class="details-content">
-            <span id="close-button">&times;</span>
+            <span id="close-button"><i class="fa-solid fa-square-xmark"></i></span>
             <div id="details"></div>
          </div>
       </div>

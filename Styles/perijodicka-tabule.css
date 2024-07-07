@@ -3,14 +3,14 @@
  }
 
  .highlight {
-  background: yellow !important;
-  transform: scale(1.1);
+  background: #2F184B !important;
+  color: #F4EFFA;
+  transform: scale(1.05);
 }
- 
+
  .table-wrapper {
    display: flex;
    flex-direction: column;
-   align-items: center;
    justify-content: center;
    width: auto;
    overflow-x: auto;
@@ -24,7 +24,6 @@
    display: grid;
    grid-template-columns: repeat(18, 1fr);
    gap: 5px;
-   width: 100%;
  }
  
  .hidden {
@@ -40,7 +39,142 @@
    justify-content: center;
    margin-bottom: 10rem;
  }
+
+ .search-bar-per-tbl{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  background: linear-gradient(45deg,#532B88, #9B72CF);
+  border-radius: 25px;
+  border: 5px solid #323232;
+  padding: 15px;
+  width: 800px;
+  color: #F4EFFA;
+  font-weight: 500;
+  column-gap: 2rem;
+  row-gap: 2rem;
+ }
  
+ .one-part-filt-ss{
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  min-width: 300px;
+  justify-content: space-between;
+ }
+ .two-part-filt-ss{
+  min-height: 300px;
+  display: flex;
+  min-width: 300px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+ }
+
+
+.napoveda-wrap{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: center;
+  row-gap: 2rem;
+  column-gap: 2rem;
+  width: 100%;
+}
+
+.napoveda-txt h3{
+  font-size: 1.5rem;
+  color: #2F184B;
+}
+
+.napovedy-all{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #2F184B;
+  font-weight: 500;
+}
+
+#temperatureRange{
+  -webkit-appearance: none;
+  appearance: none;
+  width: 200px;
+  height: 25px;
+  border: 3px solid #323232;
+  background: #F4EFFA;
+  border-radius: 25px;
+  outline: none;
+}
+
+#temperatureRange::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  appearance: none;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  background-image: url('../images/headka.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+#temperatureRange::-moz-range-thumb {
+  width: 23px;
+  height: 25px;
+  border: 0;
+  background: url('../images/headka.png');
+  cursor: pointer;
+}
+
+
+.degrees-elemnt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100px;
+}
+
+
+ #search-input{
+  padding: 10px;
+  font-size: 1.25rem;
+  color:#2F184B ;
+  font-weight: 600;
+  outline: none;
+  border: 3px solid #323232;
+  border-radius: 15px;
+  width: 100%;
+  background: #F4EFFA;
+  transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+ }
+
+ #search-input:active{
+  background: #C8B1E4;
+}
+
+ #category-filter{
+  padding: 10px;
+  width: 100%;
+  border: 3px solid #323232;
+  outline: none;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color:#2F184B ;
+  cursor: pointer;
+  transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+ }
+
+ #category-filter:active{
+  background: #C8B1E4;
+ }
  
  #element-details {
    background: linear-gradient(45deg,#532B88, #9B72CF);
@@ -60,12 +194,22 @@
   color: #2F184B;
   margin-bottom: 2rem;
  }
+
+ #details h2 i{
+  margin-left: 1rem;
+ }
  
  #close-button {
    position: absolute;
    top: 10px;
    right: 10px;
    cursor: pointer;
+   color: #323232;
+   transition: 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+ }
+
+ #close-button:hover{
+  transform: scale(1.25);
  }
  
  .one-p-per-el{
@@ -159,7 +303,67 @@
    width: 30%;
  }
  
- 
+ .napoveda-one-only{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+  height: 30px;
+ }
+
+ .napoveda-one-only i{
+  margin-right: 1rem;
+ }
+
+ .radioactive-shyt{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items:center;
+  justify-content: space-around;
+  column-gap: 1rem;
+  row-gap: 1rem;
+ }
+
+ #check-radioactive{
+  width: 30px;
+  height: 30px;
+  margin: auto 0;
+  -webkit-appearance: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: #F4EFFA;
+  transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor: pointer;
+ }
+
+ #check-radioactive:active{
+  background-color: #C8B1E4;
+  transform: scale(0.95);
+ }
+
+ #check-radioactive::before{
+  content: "";
+  color: transparent;
+  display: block;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  border: 0;
+  background-color: transparent;
+  background-size: contain;
+ }
+
+ #check-radioactive:checked{
+  background-color: #2F184B;
+ }
+
+ #check-radioactive:checked::before{
+  box-shadow: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E %3Cpath d='M15.88 8.29L10 14.17l-1.88-1.88a.996.996 0 1 0-1.41 1.41l2.59 2.59c.39.39 1.02.39 1.41 0L17.3 9.7a.996.996 0 0 0 0-1.41c-.39-.39-1.03-.39-1.42 0z' fill='%23fff'/%3E %3C/svg%3E");
+ }
+
  
  /* Prvky  */
  .element {
@@ -189,13 +393,55 @@
  }
  
  .element-name {
-   font-size: 0.75rem;
+   font-size: 0.5rem;
    text-align: center;
    font-weight: 500;
  }
  
+ .element.melt-degr{
+  background: rgb(190, 22, 22); 
+  color: #F4EFFA;
+ }
+
+ .element.boil-degr{
+  background: rgb(50, 0, 0); 
+  color: #F4EFFA;
+ }
  
- 
+.skupenstvi-wrap h3{
+  color: #F4EFFA;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.skupenstvxxx{
+  display: flex;
+  flex-direction: row;
+  row-gap: 2rem;
+  column-gap: 2rem;
+}
+
+.skupenstvxxx button{
+  width: 100px;
+  height: 50px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  border: 3px solid #323232;
+  background: #F4EFFA;
+  color: #2F184B;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.skupenstvxxx button:active{
+  background: #C8B1E4;
+}
+
+
  
  /* Helium  */
  .element-2 {
@@ -389,95 +635,95 @@
  
  /* Plyny  */
  .noble {
-   background: #c489ff;
+   background: #935eff;
  }
  
  .noble.only-txt-laxtt{
-   color: #c489ff;
+   color: #935eff;
    background: transparent;
  }
  
  /* Alkalické kovy  */
  .alkali {
-   background: #ffa742;
+   background: #ff6c5e;
  }
  
  .alkali.only-txt-laxtt {
-   color: #ffa742;
+   color: #ff6c5e;
    background: transparent;
  }
  
  /* Alkalické zemní kovy  */
  .alkaline {
-   background: #ffda60;
+   background: #ffac47;
  }
  .alkaline.only-txt-laxtt {
-   color: #ffda60;
+   color: #ffac47;
    background: transparent;
  }
  
  /* Přechodné kovy  */
  .transition {
-   background: #a5ff56;
+   background: #fff94b;
  }
  .transition.only-txt-laxtt {
-   color: #a5ff56;
+   color: #fff94b;
    background: transparent;
  }
  
  /* Nekovy  */
  .polyatomic {
-   background: #ff6161;
+   background: #5686ff;
  }
  .polyatomic.only-txt-laxtt {
-   color: #ff6161;
+   color: #5686ff;
    background: transparent;;
  }
  
  /* Halogeny */
  .diatomic {
-   background: #6685ff;
+   background: #5c6abe;
  }
  .diatomic.only-txt-laxtt {
-   color: #6685ff;
+   color: #5c6abe;
    background: transparent;
  }
  
  /* Kovy  */
  .post-transition {
-   background: #87e7ff;
+   background: #7ade6c;
  }
  .post-transition.only-txt-laxtt {
-   color: #87e7ff;
+   color: #7ade6c;
    background: transparent;
  }
  
  /* Polokovy  */
  .metalloid {
-   background: #cfcfcf;
+   background: #139661;
  }
  .metalloid.only-txt-laxtt {
-   color: #cfcfcf;
+   color: #139661;
    background: transparent;
  }
  
  /* Lanthanoidy  */
  .lanthanide {
-   background: #ff84f3;
+   background: #37ccee;
    margin-top: 2.5vw;
  }
  .lanthanide.only-txt-laxtt {
-   color: #ff84f3;
+   color: #37ccee;
    background: transparent;
    margin-top: 0vw;
  }
  
  /* Aktinoidy */
  .actinide {
-   background: #65ffb7;
+   background: #ff86ff;
  }
  .actinide.only-txt-laxtt {
-   color: #65ffb7;
+   color: #ff86ff;
    background: transparent;
  }
  
