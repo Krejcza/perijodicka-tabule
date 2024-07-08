@@ -1843,7 +1843,7 @@ const tableElements = {
        phase: "Solid",
        source: "https://cs.wikipedia.org/wiki/Gadolinium",
        spectral_img: null,
-       summary: "Gadolinium is a chemical element with symbol Gd and atomic number 64. It is a silvery-white, malleable and ductile rare-earth metal. It is found in nature only in combined (salt) form.",
+       summary: "Gadolinium je měkej a šedavej kov kerej se v přýrodě viskytuje v mynerálech jako monazyt a bastnasit. Je známej ťim, že má visokou magnetyckou susceptybilitu a jě často využívanej v rúznejch technologyckejch aplykacých.",
        symbol: "Gd",
        xpos: 10,
        ypos: 9,
@@ -1851,7 +1851,7 @@ const tableElements = {
        vzhled: 'Střýbřitě bílej kov',
        kategorie: 'Lanthanojdy',
        skupenstvi: 'Pevný',
-       fact: 'Vodík se pije',
+       fact: 'Gadolinium se použývá jako kontrastňí čynidlo v medycínský diagnostyce pro zlepšeňí kvalyty obrazú získanejch pomocý magnetický resonance (MRI).',
        radioactive: false,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -1872,7 +1872,7 @@ const tableElements = {
        phase: "Solid",
        source: "https://cs.wikipedia.org/wiki/Terbium",
        spectral_img: null,
-       summary: "Terbium is a chemical element with symbol Tb and atomic number 65. It is a silvery-white rare earth metal that is malleable, ductile and soft enough to be cut with a knife. Terbium is never found in nature as a free element, but it is contained in many minerals, including cerite, gadolinite, monazite, xenotime and euxenite.",
+       summary: "Terbium je mněký kov s visokou magnetyckou susceptybilitou. Jě známej svojy schopnosťí emytovat intenzyvní zelený svjětlo přy aktivacy určitejma tipma ijonizujícího záření coš ho ďelá dúležytym pro rúzný optický aplykace.",
        symbol: "Tb",
        xpos: 11,
        ypos: 9,
@@ -1880,7 +1880,7 @@ const tableElements = {
        vzhled: 'Střýbřitě bílej kov',
        kategorie: 'Lanthanojdy',
        skupenstvi: 'Pevný',
-       fact: 'Vodík se pije',
+       fact: 'Terbium se použývá ve fosforovejch materijálech pro vírobu zelenejch LED dijod a komponentú pro dyspleje a svjetelný zdrojě. Najdou se třeba ve starejch televizých.',
        radioactive: false,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -1901,7 +1901,7 @@ const tableElements = {
        phase: "Solid",
        source: "https://cs.wikipedia.org/wiki/Dysprosium",
        spectral_img: null,
-       summary: "Dysprosium is a chemical element with the symbol Dy and atomic number 66. It is a rare earth element with a metallic silver luster. Dysprosium is never found in nature as a free element, though it is found in various minerals, such as xenotime.",
+       summary: "Dysprosium je mněkej kov kterej se ve svý přyrozený formně oksiduje na vzduchu. V mynerálech se viskytuje společňě s ostatníma lanthanojdama, přyčemš jěho izotopi sou stabilňí.",
        symbol: "Dy",
        xpos: 12,
        ypos: 9,
@@ -1909,7 +1909,7 @@ const tableElements = {
        vzhled: 'Střýbřitě bílej kov',
        kategorie: 'Lanthanojdy',
        skupenstvi: 'Pevný',
-       fact: 'Vodík se pije',
+       fact: 'Dysprosium se viužívá v lejsrovejch zařýzeňích pro vírobu rúznejch tipú lejsrú kerý nacházej uplatnění v prúmislovejch a vjědeckejch aplykacích.',
        radioactive: false,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -1930,7 +1930,7 @@ const tableElements = {
        phase: "Solid",
        source: "https://cs.wikipedia.org/wiki/Holmium",
        spectral_img: null,
-       summary: "Holmium is a chemical element with symbol Ho and atomic number 67. Part of the lanthanide series, holmium is a rare earth element. Holmium was discovered by Swedish chemist Per Theodor Cleve.",
+       summary: "Holmium je měkej a pomněrně reaktivňí kov kerej se v přýrodě viskytuje ve formně oksidů v mynerálech jako je monazit. Jě známej pro svou schopnost apsorpce neutronú, coš ho ďělá dúležitim pro některý aplykace v jadernim prúmislu.",
        symbol: "Ho",
        xpos: 13,
        ypos: 9,
@@ -1938,7 +1938,7 @@ const tableElements = {
        vzhled: 'Střýbřitě bílej kov',
        kategorie: 'Lanthanojdy',
        skupenstvi: 'Pevný',
-       fact: 'Vodík se pije',
+       fact: 'Holmium se použývá pro záznam dat v optyckejch diskách kde jě schopno uchovávat informace v optycký formně.',
        radioactive: false,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -1959,7 +1959,7 @@ const tableElements = {
        phase: "Solid",
        source: "https://cs.wikipedia.org/wiki/Erbium",
        spectral_img: null,
-       summary: "Erbium is a chemical element in the lanthanide series, with symbol Er and atomic number 68. A silvery-white solid metal when artificially isolated, natural erbium is always found in chemical combination with other elements on Earth. As such, it is a rare earth element which is associated with several other rare elements in the mineral gadolinite from Ytterby in Sweden, where yttrium, ytterbium, and terbium were discovered.",
+       summary: "Erbium je mněkej kov, kterej se v přýrodě viskytuje ve formě oksydú v mynerálech jako je monazit. Je známej pro svou schopnost apsorbovat neutrony, coš jě využívaný v ňěkterejch jadernejch aplykacých.",
        symbol: "Er",
        xpos: 14,
        ypos: 9,
@@ -1967,7 +1967,7 @@ const tableElements = {
        vzhled: 'Střýbřitě bílej kov',
        kategorie: 'Lanthanojdy',
        skupenstvi: 'Pevný',
-       fact: 'Vodík se pije',
+       fact: 'Erbium se použývá jako apsorbent neutronú v jadernejch reaktorech pro regulacy štěpný reakce.',
        radioactive: false,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -1988,7 +1988,7 @@ const tableElements = {
        phase: "Solid",
        source: "https://cs.wikipedia.org/wiki/Thulium",
        spectral_img: null,
-       summary: "Thulium is a chemical element with symbol Tm and atomic number 69. It is the thirteenth and antepenultimate (third-last) element in the lanthanide series. Like the other lanthanides, the most common oxidation state is +3, seen in its oxide, halides and other compounds.",
+       summary: "Thulium je mněkej střýbřitě býlej kov kerej se v příroďe viskituje ve formně oksidú v mynerálech jako je monazyt. Jě chemycky méňě reaktivňí neš předešlí prvky ze skupyny lanthanojdú.",
        symbol: "Tm",
        xpos: 15,
        ypos: 9,
@@ -1996,7 +1996,7 @@ const tableElements = {
        vzhled: 'Střýbřitě bílej kov',
        kategorie: 'Lanthanojdy',
        skupenstvi: 'Pevný',
-       fact: 'Vodík se pije',
+       fact: 'Thuliumový sloučeňiny sou použývaný v solárňích článkách pro konverzy slunečňí energije na elektryckou energiji.',
        radioactive: false,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -2017,7 +2017,7 @@ const tableElements = {
        phase: "Solid",
        source: "https://cs.wikipedia.org/wiki/Ytterbium",
        spectral_img: null,
-       summary: "Ytterbium is a chemical element with symbol Yb and atomic number 70. It is the fourteenth and penultimate element in the lanthanide series, which is the basis of the relative stability of its +2 oxidation state. However, like the other lanthanides, its most common oxidation state is +3, seen in its oxide, halides and other compounds.",
+       summary: "Ytterbium je měkej kov kerej ve sví přyrozený formně oksyduje na vzduchu. Kúli svýmu malýmu vískytu a visoký výrobňí cenně čystýho ytterbia nemá víznamný využití.",
        symbol: "Yb",
        xpos: 16,
        ypos: 9,
@@ -2025,7 +2025,7 @@ const tableElements = {
        vzhled: 'Střýbřitě bílej kov',
        kategorie: 'Lanthanojdy',
        skupenstvi: 'Pevný',
-       fact: 'Vodík se pije',
+       fact: 'Ytterbium se šyroce použývá v lejsrovejch technologyjích pro rúzný aplykace v prúmyslu a vjedě. Napříklat v komunykacích pro visorkorychlostňí optický přenosi dat.',
        radioactive: false,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -2046,7 +2046,7 @@ const tableElements = {
        phase: "Solid",
        source: "https://cs.wikipedia.org/wiki/Lutecium",
        spectral_img: null,
-       summary: "Lutetium is a chemical element with symbol Lu and atomic number 71. It is a silvery white metal, which resists corrosion in dry, but not in moist air. It is considered the first element of the 6th-period transition metals and the last element in the lanthanide series, and is traditionally counted among the rare earths.",
+       summary: "Lutecium je střýbřitě bílej kov kerej je velmy těško tavytelnej a viskytuje se v přýrodě převážňě ve formně mynerálů jako je monazit. Má podobný vlastnosťi jako ostaňí lanthanojdy, ale je známej pro svojy stabylitu a visokou hustotu.",
        symbol: "Lu",
        xpos: 17,
        ypos: 9,
@@ -2054,7 +2054,7 @@ const tableElements = {
        vzhled: 'Střýbřitě bílej kov',
        kategorie: 'Lanthanojdy',
        skupenstvi: 'Pevný',
-       fact: 'Vodík se pije',
+       fact: 'Lutecium se viužývá v medycíně pro vírobu radijofarmak pro dyagnostický a terapeutický účeli. Konkrétňe v jaderný medycíně pro léčbu nádorovejch onemocnění.',
        radioactive: false,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -2075,7 +2075,7 @@ const tableElements = {
        phase: "Solid",
        source: "https://cs.wikipedia.org/wiki/Hafnium",
        spectral_img: "https://en.wikipedia.org/wiki/File:Hafnium_spectrum_visible.png",
-       summary: "Hafnium is a chemical element with symbol Hf and atomic number 72. A lustrous, silvery gray, tetravalent transition metal, hafnium chemically resembles zirconium and is found in zirconium minerals. Its existence was predicted by Dmitri Mendeleev in 1869, though it was not identified until 1923, making it the penultimate stable element to be discovered (rhenium was identified two years later).",
+       summary: "Hafnium se bjěžně použývá jako přímněs ve zirkonijovejch slytinách kerý maj šyroký viužití v prúmyslu. Je to kovovej prvek, kterej je stabylňí na vsduchu a má visokou teplotňí odolnost.",
        symbol: "Hf",
        xpos: 4,
        ypos: 6,
@@ -2083,7 +2083,7 @@ const tableElements = {
        vzhled: 'Střýbřitě šedej kov',
        kategorie: 'Přechodný kovy',
        skupenstvi: 'Pevný',
-       fact: 'Vodík se pije',
+       fact: 'Hafnium se použývá jako stavebňí materijál v jadernejch reaktorech, zejména pro svojy schopnost apsorbovat neutrony coš pomáhá regulovat šťěpnou reakcy.',
        radioactive: false,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -2104,7 +2104,7 @@ const tableElements = {
        phase: "Solid",
        source: "https://cs.wikipedia.org/wiki/Tantal",
        spectral_img: "https://en.wikipedia.org/wiki/File:Tantalum_spectrum_visible.png",
-       summary: "Tantalum is a chemical element with symbol Ta and atomic number 73. Previously known as tantalium, its name comes from Tantalus, an antihero from Greek mythology. Tantalum is a rare, hard, blue-gray, lustrous transition metal that is highly corrosion-resistant.",
+       summary: "Tantal jě měkej aš středňě tvrdej kov kterej se viskytuje v přýrodě v rúznejch mynerálech. Jě známej svojy schopnosťí odolávat korozy a udržovat svoje mechanický vlastnosťi přy vysokejch teplotách.",
        symbol: "Ta",
        xpos: 5,
        ypos: 6,
@@ -2112,7 +2112,7 @@ const tableElements = {
        vzhled: 'Střýbřitě šedej kov',
        kategorie: 'Přechodný kovy',
        skupenstvi: 'Pevný',
-       fact: 'Vodík se pije',
+       fact: 'Tantalový materijáli se využívaj v medycíně pro vírobu chyrurgickejch implantátú, protože sou bijokompatybilňí a maj visokou odolnost v lydskim ťele.',
        radioactive: false,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -2133,7 +2133,7 @@ const tableElements = {
        phase: "Solid",
        source: "https://cs.wikipedia.org/wiki/Wolfram",
        spectral_img: null,
-       summary: "Tungsten, also known as wolfram, is a chemical element with symbol W and atomic number 74. The word tungsten comes from the Swedish language tung sten, which directly translates to heavy stone. Its name in Swedish is volfram, however, in order to distinguish it from scheelite, which in Swedish is alternatively named tungsten.",
+       summary: "Wolfram je extrémě tvrdej a odolnej kov kerej se viskytuje předevšym ve formně wolframitu a scheelytu. Jě známej svou visokou hustotou kerá jě přybližně stejná jako u zlata, a visokou teplotňí stabylitou.",
        symbol: "W",
        xpos: 6,
        ypos: 6,
@@ -2141,7 +2141,7 @@ const tableElements = {
        vzhled: 'Šedobílej kov',
        kategorie: 'Přechodný kovy',
        skupenstvi: 'Pevný',
-       fact: 'Vodík se pije',
+       fact: 'Wolfram se viužívá ve specyjálňích slytinách pro vírobu prúmyslovejch nástrojú jako sou vrtáki a frézy, ďíki sví tvrdosťi a odolnosťi.',
        radioactive: false,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -2162,7 +2162,7 @@ const tableElements = {
        phase: "Solid",
        source: "https://cs.wikipedia.org/wiki/Rhenium",
        spectral_img: null,
-       summary: "Rhenium is a chemical element with symbol Re and atomic number 75. It is a silvery-white, heavy, third-row transition metal in group 7 of the periodic table. With an estimated average concentration of 1 part per billion (ppb), rhenium is one of the rarest elements in the Earth's crust.",
+       summary: "Rhenium jě ekstrémě vzácnej a drahej kov kterej se často viskytuje jako stopovej prvek ve sulfydickejch mynerálech. Je známej pro svojy visokou hustotu a pevnost a je jedňim z nejtěššých kovú kerý se bjěžně viužívá.",
        symbol: "Re",
        xpos: 7,
        ypos: 6,
@@ -2170,7 +2170,7 @@ const tableElements = {
        vzhled: 'Střýbřitě šedej kov',
        kategorie: 'Přechodný kovy',
        skupenstvi: 'Pevný',
-       fact: 'Vodík se pije',
+       fact: 'Rhenium se použývá ve specijálňích slyťinách pro vírobu turbýnovejch lopatek v leteckym a raketovim prúmyslu, ďíky jěho vysoký teplotňí stabylitě a odolnosťi v ekxtrémňích podmýnkách.',
        radioactive: false,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -2191,7 +2191,7 @@ const tableElements = {
        phase: "Solid",
        source: "https://cs.wikipedia.org/wiki/Osmium",
        spectral_img: null,
-       summary: 'Osmium (from Greek osme (\u1f40\u03c3\u03bc\u03ae) meaning "smell") is a chemical element with symbol Os and atomic number 76. It is a hard, brittle, bluish-white transition metal in the platinum group that is found as a trace element in alloys, mostly in platinum ores. Osmium is the densest naturally occurring element, with a density of 22.59 g/cm3.',
+       summary: 'Osmium je ekstrémňě hustej a tvrdej kov kerej se často viskytuje ve formně mynerálů spolu s platinou. Jě známej svojy visokou hustotou a teplotňí odolnosťí coš ho ďelá užytečnim materijálem pro specyjální aplykace.',
        symbol: "Os",
        xpos: 8,
        ypos: 6,
@@ -2199,7 +2199,7 @@ const tableElements = {
        vzhled: 'Modravje šedej kov',
        kategorie: 'Přechodný kovy',
        skupenstvi: 'Pevný',
-       fact: 'Vodík se pije',
+       fact: 'Osmiumový sliťiny se ňěkdy viužívaj v oftalmologyji pro vírobu nástrojú a implantátú použývanejch přy očňích operacých.',
        radioactive: false,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -2220,7 +2220,7 @@ const tableElements = {
        phase: "Solid",
        source: "https://cs.wikipedia.org/wiki/Iridium",
        spectral_img: null,
-       summary: "Iridium is a chemical element with symbol Ir and atomic number 77. A very hard, brittle, silvery-white transition metal of the platinum group, iridium is generally credited with being the second densest element (after osmium) based on measured density, although calculations involving the space lattices of the elements show that iridium is denser. It is also the most corrosion-resistant metal, even at temperatures as high as 2000 \u00b0C. Although only certain molten salts and halogens are corrosive to solid iridium, finely divided iridium dust is much more reactive and can be flammable.",
+       summary: "Iridium jě ekstrémně odolný proťi korozy a oksydaci coš jej čyní ideálňim materijálem pro aplykace, kerý vižadujou odolnost v ekstrémňích podmýnkách. Má střýbřitě býlou barvu a patří mezy nejťěšší a nejpevnější kovy.",
        symbol: "Ir",
        xpos: 9,
        ypos: 6,
@@ -2228,7 +2228,7 @@ const tableElements = {
        vzhled: 'Šedej kov',
        kategorie: 'Přechodný kovy',
        skupenstvi: 'Pevný',
-       fact: 'Vodík se pije',
+       fact: 'Iridium se viužívá jako katalizátor v chemyckym prúmyslu pro rúzný chemycký reakce, napříklat hidrogenace. Ďíky svojy odolnosťi jě taky součásťí specijálních sliťin použývanejch ve vírobě prúmyslovejch nástrojú a zařýzení.',
        radioactive: false,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -2249,7 +2249,7 @@ const tableElements = {
        phase: "Solid",
        source: "https://cs.wikipedia.org/wiki/Platina",
        spectral_img: null,
-       summary: 'Platinum is a chemical element with symbol Pt and atomic number 78. It is a dense, malleable, ductile, highly unreactive, precious, gray-white transition metal. Its name is derived from the Spanish term platina, which is literally translated into "little silver".',
+       summary: 'Platina je vzácnej těškej střýbřitě býlej kov a jě známá svojy visokou odolnosťí proťi korozy a viňikajícíma katalitickejma vlastnostma. Tenle kov má velmy visokou teplotu táňí a jě chemycky témněř inertňí coš znamená že nereaguje snadno s jynejma látkama.',
        symbol: "Pt",
        xpos: 10,
        ypos: 6,
@@ -2257,7 +2257,7 @@ const tableElements = {
        vzhled: 'Šedobílej kov',
        kategorie: 'Přechodný kovy',
        skupenstvi: 'Pevný',
-       fact: 'Vodík se pije',
+       fact: 'Využývá se v zubňích náhradách a srdečňích kardyjoostymulátorech ďíki svojy bijokompatibylitě.',
        radioactive: false,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -2278,7 +2278,7 @@ const tableElements = {
        phase: "Solid",
        source: "https://cs.wikipedia.org/wiki/Zlato",
        spectral_img: null,
-       summary: "Gold is a chemical element with symbol Au (from Latin:aurum) and atomic number 79. In its purest form, it is a bright, slightly reddish yellow, dense, soft, malleable and ductile metal. Chemically, gold is a transition metal and a group 11 element.",
+       summary: "Zlato je žlutej kov kerej se v přýroďě často viskytuje v nečistý formně jako ruda. Čistý zlato jě velmy stabilňí a neoksyduje. Je extrémě měký ale ve slyťinách s jinejma kovama, jako je mněď nebo střýbro zýskává pevnost a odolnost potřebnou pro praktycký aplykace.",
        symbol: "Au",
        xpos: 11,
        ypos: 6,
@@ -2286,7 +2286,7 @@ const tableElements = {
        vzhled: 'Žlutej kov',
        kategorie: 'Přechodný kovy',
        skupenstvi: 'Pevný',
-       fact: 'Vodík se pije',
+       fact: 'Ďíky svojy visoký elektrycký voďivosti se zlato použývá v elektronickejch kontaktech a konektorech, zejména tam gde jě zapotřebý spolehlivího a trvanlyvýho spojění.',
        radioactive: false,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -2307,7 +2307,7 @@ const tableElements = {
        phase: "Liquid",
        source: "https://cs.wikipedia.org/wiki/Rtu%C5%A5",
        spectral_img: null,
-       summary: "Mercury is a chemical element with symbol Hg and atomic number 80. It is commonly known as quicksilver and was formerly named hydrargyrum (/ha\u026a\u02c8dr\u0251\u02d0rd\u0292\u0259r\u0259m/). A heavy, silvery d-block element, mercury is the only metallic element that is liquid at standard conditions for temperature and pressure; the only other element that is liquid under these conditions is bromine, though metals such as caesium, gallium, and rubidium melt just above room temperature.",
+       summary: "Rtuť je těškej kov, kerej jě za běžnejch podmýnek tekutej. Jě známá svojy střýbřitou barvou a visokou hustotou. Rtuť je jedňim z mála kovú, kterej zústává tekutej i přy pokojový teplotě coš jě unykátňí vlastnost pro tenle prvek.",
        symbol: "Hg",
        xpos: 12,
        ypos: 6,
@@ -2315,7 +2315,7 @@ const tableElements = {
        vzhled: 'Štřýbřitej kov',
        kategorie: 'Přechodný kovy',
        skupenstvi: 'Kapalný',
-       fact: 'Vodík se pije',
+       fact: 'Rtut se ňěkdy použývá v lékařství a to konkrétňe pro vírobu teplomněrú na bázi rtuťi.',
        radioactive: false,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -2336,7 +2336,7 @@ const tableElements = {
        phase: "Solid",
        source: "https://cs.wikipedia.org/wiki/Thallium",
        spectral_img: null,
-       summary: "Thallium is a chemical element with symbol Tl and atomic number 81. This soft gray post-transition metal is not found free in nature. When isolated, it resembles tin, but discolors when exposed to air.",
+       summary: "Thallium je měkej kov se střýbřitou barvou kerej jě za bjěžnejch podmýnek pevnej. Má nískou teplotu táňí a je relativňě mněkej, coš ho ďelá snadno tvarovatelnim.",
        symbol: "Tl",
        xpos: 13,
        ypos: 6,
@@ -2344,7 +2344,7 @@ const tableElements = {
        vzhled: 'Šedej kov',
        kategorie: 'Kovy',
        skupenstvi: 'Pevný',
-       fact: 'Vodík se pije',
+       fact: 'Hystoricky bilo thallium použývaný v elektronickejch součástkách, napříklat ve fotocelulárňích článkách, avšak kúli jěho toksickosti se tole viužiťí v praxy omezuje.',
        radioactive: false,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -2365,7 +2365,7 @@ const tableElements = {
        phase: "Solid",
        source: "https://cs.wikipedia.org/wiki/Olovo",
        spectral_img: null,
-       summary: "Lead (/l\u025bd/) is a chemical element in the carbon group with symbol Pb (from Latin:plumbum) and atomic number 82. Lead is a soft, malleable and heavy post-transition metal. Metallic lead has a bluish-white color after being freshly cut, but it soon tarnishes to a dull grayish color when exposed to air.",
+       summary: "Olovo je měkej kov s tipickou střýbřiťě šedou barvou. Má nískou teplotu táňí a vipařování coš ho dělá užytečnym materijálem pro rúzný aplykace, ale taky přizpývá k jěho škodlivejm ůčinkúm.",
        symbol: "Pb",
        xpos: 14,
        ypos: 6,
@@ -2373,7 +2373,7 @@ const tableElements = {
        vzhled: 'Šedej kov',
        kategorie: 'Kovy',
        skupenstvi: 'Pevný',
-       fact: 'Vodík se pije',
+       fact: 'Olovo se použývá pro vírobu střelyva do brokovňic nebo třeba vsduchovek pro sportovňí a loveckí ůčely.',
        radioactive: false,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -2394,7 +2394,7 @@ const tableElements = {
        phase: "Solid",
        source: "https://cs.wikipedia.org/wiki/Bismut",
        spectral_img: null,
-       summary: "Bismuth is a chemical element with symbol Bi and atomic number 83. Bismuth, a pentavalent post-transition metal, chemically resembles arsenic and antimony. Elemental bismuth may occur naturally, although its sulfide and oxide form important commercial ores.",
+       summary: "Bismut jě kov s býlou barvou kerej má v porovnáňí s jinejma kovama nískou teplotu táňí. Ve svojy čystý formně je pomněrně křechkej a snadno se tvarujě.",
        symbol: "Bi",
        xpos: 15,
        ypos: 6,
@@ -2402,7 +2402,7 @@ const tableElements = {
        vzhled: 'Řúžovo bílej kov',
        kategorie: 'Kovy',
        skupenstvi: 'Pevný',
-       fact: 'Vodík se pije',
+       fact: 'Ve formně bismutovýho subgallátu se viužývá v kosmetickejch přýpravcích jako sou pudri, kde púsobjej jako apsorbent.',
        radioactive: false,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -2423,7 +2423,7 @@ const tableElements = {
        phase: "Solid",
        source: "https://cs.wikipedia.org/wiki/Polonium",
        spectral_img: null,
-       summary: "Polonium is a chemical element with symbol Po and atomic number 84, discovered in 1898 by Marie Curie and Pierre Curie. A rare and highly radioactive element with no stable isotopes, polonium is chemically similar to bismuth and tellurium, and it occurs in uranium ores. Applications of polonium are few.",
+       summary: "Polonium jě radijoaktivňí kovovej prvek se střýbřitě šedou barvou. Je to jěďinej prvek s atomovim číslem 84 a patřý mezy halogenidy. V příroďe se viskytuje jen v malejch stopovejch mnošstvých a jě známí svou visokou toksicitou.",
        symbol: "Po",
        xpos: 16,
        ypos: 6,
@@ -2431,7 +2431,7 @@ const tableElements = {
        vzhled: 'Střýbřitej kov',
        kategorie: 'Polokovy',
        skupenstvi: 'Pevný',
-       fact: 'Vodík se pije',
+       fact: 'V minulosťi bilo polonium použývaný v termoelektryckejch generátorech pro kosmycký sondy, kde bilo viužíváno pro jěho radijoaktivňí rospad k vírobjě elektrycký energije.',
        radioactive: true,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -2452,7 +2452,7 @@ const tableElements = {
        phase: "Solid",
        source: "https://cs.wikipedia.org/wiki/Astat",
        spectral_img: null,
-       summary: "Astatine is a very rare radioactive chemical element with the chemical symbol At and atomic number 85. It occurs on Earth as the decay product of various heavier elements. All its isotopes are short-lived; the most stable is astatine-210, with a half-life of 8.1 hours.",
+       summary: "Astat je radijoaktyvňí halogenovej prvek a jě známej svojy visokou radijoaktivytou a krátkou polovyčňí dobou rospadu. V příroďě se viskytuje jen ve stopovejch mnošstvých a je zýskávanej umněle.",
        symbol: "At",
        xpos: 17,
        ypos: 6,
@@ -2460,7 +2460,7 @@ const tableElements = {
        vzhled: 'Nejspíš kovovej',
        kategorie: 'Halogeny',
        skupenstvi: 'Pevný',
-       fact: 'Vodík se pije',
+       fact: 'Astat má potencyjální využytí v radijoterapyji pro cýlennou léčbu nádorovejch onemocnění, a to ďíki jěho schopnosťi emytovat zářeňí alfa čásťic.',
        radioactive: true,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -2481,7 +2481,7 @@ const tableElements = {
        phase: "Gas",
        source: "https://cs.wikipedia.org/wiki/Radon",
        spectral_img: "https://en.wikipedia.org/wiki/File:Radon_spectrum.png",
-       summary: "Radon is a chemical element with symbol Rn and atomic number 86. It is a radioactive, colorless, odorless, tasteless noble gas, occurring naturally as a decay product of radium. Its most stable isotope, 222Rn, has a half-life of 3.8 days.",
+       summary: "Radon je bezbarvej, bespachej a těšce hořlavej plin kerej patřý mezy vzácný plyný prvki. Jě radijoaktivňim isotopem a v přýrodě vzňiká jako produkt rospadu uranu a thorija v horňinách a púďe.",
        symbol: "Rn",
        xpos: 18,
        ypos: 6,
@@ -2489,7 +2489,7 @@ const tableElements = {
        vzhled: 'Bezbarvej plyn',
        kategorie: 'Vzácný plyny',
        skupenstvi: 'Plynový',
-       fact: 'Vodík se pije',
+       fact: 'Radon se použývá k detekcy prúňiku vodňích par, kerý proňikaj do technickejch sistémú.',
        radioactive: true,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -2510,7 +2510,7 @@ const tableElements = {
        phase: "Solid",
        source: "https://cs.wikipedia.org/wiki/Francium",
        spectral_img: null,
-       summary: "Francium is a chemical element with symbol Fr and atomic number 87. It used to be known as eka-caesium and actinium K. It is the second-least electronegative element, behind only caesium. Francium is a highly radioactive metal that decays into astatine, radium, and radon.",
+       summary: "Francium je ekstrémně vzácnej alkalyčňí kovovej prvek. Jě to nejtěšší a nejnestabylnější prvek v týhle skupyně kerej se v přýrodě viskytuje jen ve stopovejch mnošstvých jako produkt rospadu uranu.",
        symbol: "Fr",
        xpos: 1,
        ypos: 7,
@@ -2518,7 +2518,7 @@ const tableElements = {
        vzhled: 'Nejspýš ocelovje šedej',
        kategorie: 'Alkalycký kovy',
        skupenstvi: 'Pevný',
-       fact: 'Vodík se pije',
+       fact: 'Francium se skoumá pro svojy roly ve fizikálňích experymentech a teoretyckejch modelech, konkrétňe v oblasťi kvantový mechanyky a jaderný fizyky.',
        radioactive: true,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -2539,7 +2539,7 @@ const tableElements = {
        phase: "Solid",
        source: "https://cs.wikipedia.org/wiki/Radium",
        spectral_img: null,
-       summary: "Radium is a chemical element with symbol Ra and atomic number 88. It is the sixth element in group 2 of the periodic table, also known as the alkaline earth metals. Pure radium is almost colorless, but it readily combines with nitrogen (rather than oxygen) on exposure to air, forming a black surface layer of radium nitride (Ra3N2).",
+       summary: "Radium je sylně radijoaktivňí kovovej prvek kerej se viskituje v příroďě v omezenejch mnošstvých. Jěho radijoaktivita je spojená s jěho schopnosťí emytovat alfa čásťice bjěhem rospadu.",
        symbol: "Ra",
        xpos: 2,
        ypos: 7,
@@ -2547,7 +2547,7 @@ const tableElements = {
        vzhled: 'Bílej lesklej kov',
        kategorie: 'Alkalycký zemyny',
        skupenstvi: 'Pevný',
-       fact: 'Vodík se pije',
+       fact: 'V geologiji se radium použývá pro určováňí stáří horňin a sedymentú pomocý radijokarbonovýho datování.',
        radioactive: true,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -2568,7 +2568,7 @@ const tableElements = {
        phase: "Solid",
        source: "https://cs.wikipedia.org/wiki/Aktinium",
        spectral_img: null,
-       summary: "Actinium is a radioactive chemical element with symbol Ac (not to be confused with the abbreviation for an acetyl group) and atomic number 89, which was discovered in 1899. It was the first non-primordial radioactive element to be isolated. Polonium, radium and radon were observed before actinium, but they were not isolated until 1902.",
+       summary: "Aktinium je těškej kov, kterej se v přýrodě viskytuje v malejch mnošstvých jako produkt rospadu uranu. Jěho radijoaktivita jě spojená s emysí alfa čásťic bjěhem rospadu.",
        symbol: "Ac",
        xpos: 3,
        ypos: 10,
@@ -2576,7 +2576,7 @@ const tableElements = {
        vzhled: 'Střýbřitej lesklej kov',
        kategorie: 'Aktinoidy',
        skupenstvi: 'Pevný',
-       fact: 'Vodík se pije',
+       fact: 'Aktinium-225 se studujě pro potencijál v cýlený radijačňí terapiji přy léčbjě nádorovejch onemocňění.',
        radioactive: true,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -2597,7 +2597,7 @@ const tableElements = {
        phase: "Solid",
        source: "https://cs.wikipedia.org/wiki/Thorium",
        spectral_img: null,
-       summary: "Thorium is a chemical element with symbol Th and atomic number 90. A radioactive actinide metal, thorium is one of only two significantly radioactive elements that still occur naturally in large quantities as a primordial element (the other being uranium). It was discovered in 1828 by the Norwegian Reverend and amateur mineralogist Morten Thrane Esmark and identified by the Swedish chemist J\u00f6ns Jakob Berzelius, who named it after Thor, the Norse god of thunder.",
+       summary: "Thorium jě stříbřytej bílej kov, kerej je radijoaktivňí a v přýroďe se viskituje v rúznejch mynerálňích formách. Má visokou hustotu a je chemycky podobnej uranu.",
        symbol: "Th",
        xpos: 4,
        ypos: 10,
@@ -2605,7 +2605,7 @@ const tableElements = {
        vzhled: 'Střýbřitej lesklej kov',
        kategorie: 'Aktinoidy',
        skupenstvi: 'Pevný',
-       fact: 'Vodík se pije',
+       fact: 'Thorium se skoumá jako alternativňí palyvo pro jaderný reaktory. Má potencijál produkovat jadernou energiji efektivnějy a bespečňeji neš tradiční uranový palyvo.',
        radioactive: true,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -2626,7 +2626,7 @@ const tableElements = {
        phase: "Solid",
        source: "https://cs.wikipedia.org/wiki/Protaktinium",
        spectral_img: null,
-       summary: "Protactinium is a chemical element with symbol Pa and atomic number 91. It is a dense, silvery-gray metal which readily reacts with oxygen, water vapor and inorganic acids. It forms various chemical compounds where protactinium is usually present in the oxidation state +5, but can also assume +4 and even +2 or +3 states.",
+       summary: "Protaktinium je střýbřitě bílej kov kterej se v přýrodě viskytuje v malejch mnošstvých jako produkt rospadu uranu. Jěho isotopi maj rúzný polomněry a odlyšnou schopnost zářyt alfa částicema.",
        symbol: "Pa",
        xpos: 5,
        ypos: 10,
@@ -2634,7 +2634,7 @@ const tableElements = {
        vzhled: 'Bílej lesklej kov',
        kategorie: 'Aktinoidy',
        skupenstvi: 'Pevný',
-       fact: 'Vodík se pije',
+       fact: 'Viužívá se v radijometrickejch mněřeňích a detektorech radijoaktyvity.',
        radioactive: true,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -2655,7 +2655,7 @@ const tableElements = {
        phase: "Solid",
        source: "https://cs.wikipedia.org/wiki/Uran_(prvek)",
        spectral_img: null,
-       summary: "Uranium is a chemical element with symbol U and atomic number 92. It is a silvery-white metal in the actinide series of the periodic table. A uranium atom has 92 protons and 92 electrons, of which 6 are valence electrons.",
+       summary: "Uran je stříbřytě býlej kov kerej se v přýrodě viskytuje v rúznejch mynerálňích formách. Jěho isotopy maj rúzný vlastnosťi ale nejvíznamější sou 235U a 238U, který se použývaj jako palyvo v jadernejch reaktorech.",
        symbol: "U",
        xpos: 6,
        ypos: 10,
@@ -2663,7 +2663,7 @@ const tableElements = {
        vzhled: 'Střýbřiťe bílej kov',
        kategorie: 'Aktinoidy',
        skupenstvi: 'Pevný',
-       fact: 'Vodík se pije',
+       fact: 'Uran je klýčovim palyvem pro jaderný reaktori, kde docházý k jěho šťepení coš uvolňujě energiji. Tenle proces se nazívá jaderná štěpná reakce.',
        radioactive: true,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -2684,7 +2684,7 @@ const tableElements = {
        phase: "Solid",
        source: "https://cs.wikipedia.org/wiki/Neptunium",
        spectral_img: null,
-       summary: "Neptunium is a chemical element with symbol Np and atomic number 93. A radioactive actinide metal, neptunium is the first transuranic element. Its position in the periodic table just after uranium, named after the planet Uranus, led to it being named after Neptune, the next planet beyond Uranus.",
+       summary: "Neptunium je kovovej prvek kterej se ve sví čystý formně jevý jako střýbřitě bílej kov. Jě známej svojy radijoaktivytou a je přýtomnej v uranovejch rudách jako produkt jadernýho rospadu.",
        symbol: "Np",
        xpos: 7,
        ypos: 10,
@@ -2692,7 +2692,7 @@ const tableElements = {
        vzhled: 'Střýbřitej kov',
        kategorie: 'Aktinoidy',
        skupenstvi: 'Pevný',
-       fact: 'Vodík se pije',
+       fact: 'Neptunium se požývá jako palyvo nebo se viužývá přy šťěpení pro produkcy energije v jadernejch reaktorech.',
        radioactive: true,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -3431,7 +3431,8 @@ const tableElements = {
  const searchInput = document.getElementById("search-input")
  const categoryFilter = document.getElementById('category-filter')
  const isradioactive = document.getElementById('check-radioactive')
- const buttons = document.querySelectorAll('.skupenstvxxx button');
+ const buttons = document.querySelectorAll('.skupenstvxxx button')
+ const reseter = document.querySelector('.reseter-btn-po')
  
 
 //  GENEROVÁNÍ PRVKŮ //
@@ -3491,11 +3492,12 @@ const tableElements = {
  });
 
 
+//KATEGORIE NA VÝBĚR //
 
  categoryFilter.addEventListener('change', function() {
-  const selectedCategory = this.value.toLowerCase();
+  const selectedCategory = this.value.toLowerCase()
 
-  const elements = document.querySelectorAll('.element');
+  const elements = document.querySelectorAll('.element')
 
   elements.forEach(element => {
     const elementName = element.querySelector('.element-name').textContent
@@ -3518,6 +3520,8 @@ const tableElements = {
   resetTemperatureRange()
 })
 
+
+//VÝBĚR ZADÁNÍM//
  
 function filterElements(searchTerm) {
   const elements = document.querySelectorAll('.element')
@@ -3544,6 +3548,8 @@ searchInput.addEventListener('input', function() {
   resetTemperatureRange()
 })
 
+//RADIOAKTIVITA//
+
 
 isradioactive.addEventListener('change', function(){
 
@@ -3567,6 +3573,9 @@ isradioactive.addEventListener('change', function(){
   categoryFilter.value = ''
   resetTemperatureRange()
 })
+
+
+//TLAČÍTKA SKUPENSTVÍ// 
 
 buttons.forEach(button => {
   button.addEventListener('click', function() {
@@ -3596,15 +3605,19 @@ buttons.forEach(button => {
 })
 
 
+//RESETOVÁNÍ TEPLOTY ROZSAHU//  
+
 function resetTemperatureRange() {
-  const temperatureRange = document.getElementById('temperatureRange');
-  const temperatureValueSpan = document.getElementById('temperatureValue');
+  const temperatureRange = document.getElementById('temperatureRange')
+  const temperatureValueSpan = document.getElementById('temperatureValue')
   
-  temperatureRange.value = -280;
-  temperatureValueSpan.textContent = `${temperatureRange.value} °C`;
+  temperatureRange.value = -280
+  temperatureValueSpan.textContent = `${temperatureRange.value} °C`
   applyTemperatureClasses()
 }
 
+
+//INICIALIZACE HODNOTY PO NAČTENÍ STRÁNKY//
 
 document.addEventListener('DOMContentLoaded', function() {
   const temperatureRange = document.getElementById('temperatureRange')
@@ -3618,9 +3631,16 @@ document.addEventListener('DOMContentLoaded', function() {
     
     applyTemperatureClasses()
 
-    searchInput.value = ''
-    categoryFilter.value = ''
-    isradioactive.checked = false
+    if (sliderValue > -280) {
+      searchInput.value = ''
+      categoryFilter.value = ''
+      isradioactive.checked = false
+
+        const elements = document.querySelectorAll('.element')
+        elements.forEach(element => {
+        element.classList.remove('highlight')
+      })
+    }
   })
 })
 
@@ -3629,13 +3649,11 @@ document.addEventListener('DOMContentLoaded', function() {
 function applyTemperatureClasses() {
   const sliderValue = document.getElementById('temperatureRange').valueAsNumber
   const elements = document.querySelectorAll('.element')
-
+  
 
   elements.forEach(element => {
     const namez = element.querySelector('.element-name').textContent.trim()
     const elementData = tableElements.elements.find(el => el.name === namez)
-
-
     
     if (elementData) {
       const meltTemperature = elementData.melt
@@ -3656,3 +3674,21 @@ function applyTemperatureClasses() {
 
   })
 }
+
+
+reseter.addEventListener('click', function() {
+  
+  searchInput.value = ''
+  categoryFilter.value = ''
+  isradioactive.checked = false
+  resetTemperatureRange()
+
+  
+  const elements = document.querySelectorAll('.element')
+  elements.forEach(element => {
+    element.classList.remove('highlight', 'melt-degr', 'boil-degr')
+  })
+
+
+  table.innerHTML = elementData.join("")
+})
