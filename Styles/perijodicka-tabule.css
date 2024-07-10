@@ -934,5 +934,15 @@
     font-weight: 600;
     text-align: center;
   }
+
+  .radioactive-shyt{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items:center;
+    justify-content: center;
+    column-gap: 2rem;
+    row-gap: 1rem;
+  }
 }
 
