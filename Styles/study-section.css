@@ -7,6 +7,10 @@
   margin-top: 5rem;
   margin-bottom: 10rem;
   column-gap: 2rem;
+  border: 5px solid #323232;
+  border-radius: 50px;
+  padding: 30px;
+  background: linear-gradient(45deg,#C8B1E4, #9B72CF);
 }
 
 .studium-materials{

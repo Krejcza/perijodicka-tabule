@@ -155,7 +155,17 @@
    .review-content{
      margin: 0 10px;
    }
-   .swiper-navBtn{
-     display: none;
+   .swiper-button-next{
+     color: #2F184B;
+     right: 0px;
+   }
+
+   .swiper-button-prev{
+      color: #2F184B;
+      left: 0px;
+   }
+
+   .wrapper-review-all{
+      padding: 0px 10px;
    }
  }

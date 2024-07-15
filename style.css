@@ -11,6 +11,7 @@
    box-sizing: border-box;
    font-family: 'Quicksand', sans-serif;
    scroll-behavior: smooth;
+   cursor:none;
 }
 
 *::selection{
@@ -23,6 +24,39 @@
    max-width: 1600px;
    margin: 0 auto;
    padding: 0 30px;
+}
+
+.cursor-dot{
+   position: fixed;
+   top: 0;
+   left: 0;
+   transform: translate(-50%, -50%);
+   border-radius: 50%;
+   z-index:6000;
+   pointer-events: none;
+   width: 10px;
+   height: 10px;
+   background-color: #323232;
+   transition: 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.cursor-outline{
+   position: fixed;
+   top: 0;
+   left: 0;
+   transform: translate(-50%, -50%);
+   border-radius: 50%;
+   z-index:6000;
+   pointer-events: none;
+   width: 40px;
+   height: 40px;
+   border: 5px solid #C8B1E4;
+   box-shadow: 0px 0px 10px #9a9a9a;
+   transition: 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.interactive-uno-mom{
+   cursor: none;
 }
 
 
@@ -87,6 +121,41 @@
    font-weight: 600;
 }
 
+#progress-br{
+   position: fixed;
+   bottom: 2rem;
+   right: 2rem;
+   height: 70px;
+   width: 70px;
+   display: grid;
+   place-items: center;
+   border-radius: 50%;
+   box-shadow: 0 0 10px rgba(57, 57, 57, 0.85);
+   z-index: 5000;
+   opacity: 0;
+   pointer-events: none;
+   transition: opacity 0.3s ease-in;
+}
+
+#progress-br.show {
+   pointer-events: auto;
+   opacity: 1;
+}
+
+#progress-value{
+   display: block;
+   height: 75%;
+   width: 75%;
+   background-color: #F4EFFA;
+   border-radius: 50%;
+   display: grid;
+   place-items: center;
+   z-index: 5001;
+   font-size: 2rem;
+   color: #323232;
+}
+
+
 
 .background-alt-pgs{
    background-image: url('data:image/svg+xml,<svg width="3621" height="7269" viewBox="0 0 3621 7269" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(%23filter0_f_0_1)"><path d="M3146.02 1957C3146.02 1471.5 82 1779.5 82 1219.87C82 660.244 1818.57 824.5 2101.02 725.5C2383.47 626.5 2618.41 334 2852.85 214C3087.29 94 3596 25 3596 25V3972.58C3596 3972.58 3058.47 4432.53 3058.47 3972.58C3058.47 3512.63 2222.25 3405.14 2168.35 2901.69C2114.44 2398.25 3146.02 2442.5 3146.02 1957Z" fill="url(%23paint0_linear_0_1)" fill-opacity="0.5"/></g><g filter="url(%23filter1_f_0_1)"><path d="M1846.11 4455.61C2015.89 3808.58 852.216 3393.56 746.942 2899.54C641.669 2405.51 180.875 2267.59 25 2175V5867C25 5867 151.431 5700.67 229.869 5557.16C308.307 5413.66 361.975 5242.65 667.471 5053.14C972.968 4863.63 1676.33 5102.64 1846.11 4455.61Z" fill="url(%23paint1_linear_0_1)" fill-opacity="0.5"/></g><g filter="url(%23filter2_f_0_1)"><path d="M1696.83 6064C1737.93 5572 2237.96 5368 2497.08 5238C2756.2 5108 3326.99 4934 3596 4934V7244C3596 7244 3445.11 6313 3086.08 6296C2727.06 6279 2687.54 7223.57 2379.49 7105C2071.44 6986.43 1655.72 6556 1696.83 6064Z" fill="url(%23paint2_linear_0_1)" fill-opacity="0.5"/></g><defs><filter id="filter0_f_0_1" x="57" y="0" width="3564" height="4202" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur stdDeviation="12.5" result="effect1_foregroundBlur_0_1"/></filter><filter id="filter1_f_0_1" x="0" y="2150" width="1888" height="3742" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur stdDeviation="12.5" result="effect1_foregroundBlur_0_1"/></filter><filter id="filter2_f_0_1" x="1669" y="4909" width="1952" height="2360" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur stdDeviation="12.5" result="effect1_foregroundBlur_0_1"/></filter><linearGradient id="paint0_linear_0_1" x1="1839" y1="25" x2="1839" y2="4177" gradientUnits="userSpaceOnUse"><stop stop-color="%23C8B1E4"/><stop offset="0.75" stop-color="%239B72CF"/></linearGradient><linearGradient id="paint1_linear_0_1" x1="944" y1="2175" x2="944" y2="5867" gradientUnits="userSpaceOnUse"><stop stop-color="%23C8B1E4"/><stop offset="0.75" stop-color="%239B72CF"/></linearGradient><linearGradient id="paint2_linear_0_1" x1="2645" y1="4934" x2="2645" y2="7244" gradientUnits="userSpaceOnUse"><stop stop-color="%23C8B1E4"/><stop offset="0.75" stop-color="%239B72CF"/></linearGradient></defs></svg>');
@@ -95,6 +164,47 @@
    background-size: cover;
    background-repeat: repeat-y;
 }
+
+
+
+@media only screen and (max-width: 1000px){
+   
+   #progress-br{
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      height: 45px;
+      width: 45px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(57, 57, 57, 0.85);
+      z-index: 5000;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease-in;
+   }
+   
+   #progress-br.show {
+      pointer-events: auto;
+      opacity: 1;
+   }
+   
+   #progress-value{
+      display: block;
+      height: 75%;
+      width: 75%;
+      background-color: #F4EFFA;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      z-index: 5001;
+      font-size: 1.5rem;
+      color: #323232;
+   }
+
+}
+
 
 
 

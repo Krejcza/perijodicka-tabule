@@ -54,7 +54,7 @@
 }
 
 .namesss, .genderrr, .emailll, .messageee{
-   padding: 10px 20px;
+   padding: 15px 20px;
    font-size: 1.5rem;
    font-weight: 500;
    margin-bottom: 2rem;
@@ -107,20 +107,20 @@
    width: 100%;
    outline: none;
    border: none;
-   background:#532B88;
+   background:#2F184B;
    color: #F4EFFA;
    height: 75px;
    border-radius: 25px;
    font-size: 1.5rem;
    font-weight: 500;
-   cursor: pointer;
    border: 5px solid #323232;
    transition: 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .send-it-bro:hover{
-   background: #C8B1E4;
+   background: #F4EFFA;
    color: #2F184B;
+   font-weight: 600;
 }
 
 
@@ -242,9 +242,13 @@
       border: 5px solid #323232;
    }
 
-   .namesss, .genderrr, .emailll, .messageee{
-      padding: 5px 30px;
+   .namesss, .genderrr, .emailll{
+      padding: 10px 30px;
       border-radius: 20px;
+   }
+
+   .messageee{
+      padding: 15px 20px;
    }
    
    .form-ind-picks{
@@ -276,7 +280,6 @@
       height: 55px;
       border-radius: 20px;
       font-weight: 500;
-      cursor: pointer;
       border: 5px solid #323232;
       transition: 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
    }
@@ -303,10 +306,17 @@
       text-align: center;
    }
 
-   .namesss, .genderrr, .emailll, .messageee{
-      padding: 5px 20px;
+   .namesss, .genderrr, .emailll{
+      padding: 10px 20px;
       margin-bottom: 1rem;
       font-size: 1.25rem;
+      text-align: center;
+   }
+
+   .messageee{
+      padding: 15px 20px;
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
    }
    
    .upper-lowe-part-combined{
@@ -331,7 +341,7 @@
    }
  
    .namesss{
-      height: 50px;
+      height: 55px;
    }
 
    .messageee{
@@ -392,10 +402,6 @@
       display: flex;
       flex-direction: column;
       flex: 1;
-   }
- 
-   .namesss{
-      height: 50px;
    }
 
    .messageee{

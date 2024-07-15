@@ -1,0 +1,48 @@
+.error-text-wrap{
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   row-gap: 2rem;
+   column-gap: 2rem;
+}
+
+.error-svg-pic svg {
+   width: 450px;
+   height: 100%;
+}
+
+.error-text-on h2{
+   font-size: 1.5rem;
+   color: #323232;
+   font-weight: 500;
+}
+
+.diskonected h2{
+   font-family: "OhWhale";
+   transform: rotate(5deg);
+   color: #2F184B;
+   font-size: 3rem;
+}
+
+@media only screen and (max-width: 650px){
+
+   .error-text-wrap{
+      row-gap: 3rem;
+      column-gap: 3rem;
+   }
+
+   .error-svg-pic svg {
+      width: 300px;
+   }
+
+   .error-text-on h2{
+      font-size: 1rem;
+      text-align: center;
+   }
+
+   .diskonected h2{
+      font-size: 2rem;
+   }
+
+}

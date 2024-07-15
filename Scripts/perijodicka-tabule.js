@@ -488,7 +488,7 @@ const tableElements = {
        vzhled: 'Žluťe-zelenej plyn',
        kategorie: 'Halogeny',
        skupenstvi: 'Plynový',
-       fact: 'Chlor se viužívá k bjělení papíru, kde sloužý k otstraňění organyckejch pygmentú a zlepšení estetyckejch vlastnosťí papírovýho materijálu.',
+       fact: 'Chlor se použývá třeba jako desynfekčňí prostředek pro čyšťění vody a bazénú, gde ňičí bakterije a vyry. Múže se viužívat i jako bjělící čiňidlo v papýrenskym prúmislu.',
        radioactive: false,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -546,7 +546,7 @@ const tableElements = {
        vzhled: 'Střýbřiťe bílej kov',
        kategorie: 'Alkalycký kovy',
        skupenstvi: 'Pevný',
-       fact: 'Draslík se používá jako aktyvní prvek v termojontovejch tranzystorech v radijokomunikačňí technologiji, coš umožňuje visoký výkony a stabylní frekvence přy vysíláňí a příjmu signálú.',
+       fact: 'Draselný soly mastnejch kiselyn se použývaj přy výrobjě tekutejch mejdel a detergentú.',
        radioactive: false,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -575,7 +575,7 @@ const tableElements = {
        vzhled: 'Střýbřiťe bílej kov',
        kategorie: 'Alkalycký zemyny',
        skupenstvi: 'Pevný',
-       fact: 'Vápník se používá přy výrobjě ocely jako legura pro zlepšeňí jejý pevnosti a odolnosťi proťi korozy. Tomuhle procesu se řýká vápňíkování ocely.',
+       fact: 'Vápník se použývá jako součást léčyv a doplňkú stravi pro prevency a léčbu osteoporózi a jinejch kostňích poruch.',
        radioactive: false,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -749,7 +749,7 @@ const tableElements = {
        vzhled: 'Šedej kov',
        kategorie: 'Přechodný kovy',
        skupenstvi: 'Pevný',
-       fact: 'Železo se používá pro vírobu rúznejch stavebňích materijálů, včetňe ocelovejch nosňíků, sloupú a betonovejch výstuží. Poskituje pevnost a stabylitu moderňim budovám a infrastruktúře.',
+       fact: 'Železo se používá pro vírobu rúznejch stavebňích materijálú, včetňe ocelovejch nosňíků, sloupú a betonovejch výstuží. Poskituje pevnost a stabylitu moderňim budovám, mostúm a infrastruktúře.',
        radioactive: false,
        image_prvek: "../images/images-periodic-table/1.png",
      },
@@ -3438,12 +3438,12 @@ const tableElements = {
 //  GENEROVÁNÍ PRVKŮ //
  const elementData = tableElements.elements.map(element => {
    return `
-     <div class="element element-${element.number} ${element.category}" title="${element.name}" onclick="showDetails(${element.number})">
+     <div class="houver-muse-kdsh element element-${element.number} ${element.category}" title="${element.name}" onclick="showDetails(${element.number})">
        <div class="number">${element.number}</div>
        <div class="symbol">${element.symbol}</div>
        <div class="element-name">${element.name}</div>
      </div>`
- });
+ })
  
  table.innerHTML = elementData.join("")
  
@@ -3464,8 +3464,8 @@ const tableElements = {
        <div class="cont-per-one-part">
          <p class="one-p-per-el">Skupenství: <span>${element.skupenstvi}</span></p>
          <p class="one-p-per-el">Hustota: <span>${element.density} g/cm<sup>3</sup></span></p>
-         <p class="one-p-per-el">Teplota tání: <span>${element.melt} °C</span></p>
-         <p class="one-p-per-el">Teplota varu: <span>${element.boil} °C</span></p>
+         <p class="one-p-per-el tepl-tan">Teplota tání: <span>${element.melt} °C</span></p>
+         <p class="one-p-per-el tepl-var">Teplota varu: <span>${element.boil} °C</span></p>
        </div>
      </div>
      <div class="about-prvek-xli">
@@ -3480,8 +3480,7 @@ const tableElements = {
        <p class="about-one-p faktissxa"> ${element.fact}</p>
      </div>
      <p><a href="${element.source}" class="wiki-how-ppp" target="_blank"><i class="fa-solid fa-book-bookmark"></i> Výc na wikyňe tu</a></p>
-     
-   `;
+   `
    elementDetails.classList.remove('hidden')
  }
  
@@ -3489,7 +3488,7 @@ const tableElements = {
 
  closeButton.addEventListener('click', () => {
    elementDetails.classList.add('hidden')
- });
+ })
 
 
 //KATEGORIE NA VÝBĚR //

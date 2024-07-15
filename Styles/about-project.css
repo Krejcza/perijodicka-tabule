@@ -65,7 +65,6 @@
    transition: transform 0.6s;
    border-radius: 50%;
    overflow: hidden;
-   cursor: pointer;
 }
 
 .flip-profile-inner {
