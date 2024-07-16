@@ -1,3 +1,38 @@
+.menu-mobile-studyx{
+   max-width: 500px;
+   padding: 15px;
+}
+
+.one-menu-mobxtu{
+   position: relative;
+}
+
+.one-menu-mobxtu .main-topyc{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+   padding: 15px;
+   background-color: #2F184B;
+   color: #F4EFFA;
+   border-radius: 25px;
+}
+
+
+.one-menu-mobxtu .main-content-study{
+   position: relative;
+   background: linear-gradient(45deg,#C8B1E4, #9B72CF);
+   height: 0;
+   overflow: hidden;
+   border-radius:25px 25px;
+   transition: 0.5s;
+}
+
+.one-menu-mobxtu.activesh .main-content-study{
+   height: 200px;
+   padding: 15px;
+}
 
 
 .studium-materijals-text-hswj{
@@ -34,9 +69,6 @@
 }
 
 .svg-kick-wrap{
-   margin-top: 2rem;
-   margin-bottom: 10rem;
-   width: 100%;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -48,10 +80,9 @@
 }
 
 
-
 .menu-crcl-rnd-wrapper{
-   width: 900px;
-   height: 900px;
+   width: 400px;
+   height: 400px;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -59,6 +90,7 @@
    background: linear-gradient(45deg,#C8B1E4, #9B72CF);
    border-radius: 50px;
    margin-bottom: 5rem;
+   transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .menu-crcl-rnd{
@@ -166,7 +198,6 @@
    align-items: center;
    z-index: 50;
    border-radius: 25px;
-   cursor: pointer;
    color: #F4EFFA;
    font-size: 2rem;
    transition:1.25s cubic-bezier(0.39, 0.575, 0.565, 1);
@@ -208,6 +239,10 @@
       column-gap: 2rem;
       row-gap: 2rem;
       align-items: center;
+   }
+
+   .menu-crcl-rnd-wrapper{
+      display: none;
    }
 }
 

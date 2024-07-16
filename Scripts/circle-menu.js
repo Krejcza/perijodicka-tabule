@@ -1,4 +1,5 @@
 let toggle = document.querySelector('.toggle-crc-rnd')
+let tglWrp = document.querySelector('.menu-crcl-rnd-wrapper')
 let menus = document.querySelector('.menu-crcl-rnd')
 let menuItems = document.querySelectorAll('.menu-crcl-rnd li');
 
@@ -10,8 +11,14 @@ toggle.addEventListener('click', ()=>{
 
    if(menus.classList.contains('activehsj')){
       toggle.classList.add('opentzs')
+      tglWrp.style.width = '900px'
+      tglWrp.style.height = '900px'
+      tglWrp.style.transitionDelay = '0s'
    } else{
       toggle.classList.remove('opentzs')
+      tglWrp.style.width = '400px'
+      tglWrp.style.height = '400px'
+      tglWrp.style.transitionDelay = '0.5s'
    }
 
    setTimeout(() => {
@@ -36,3 +43,13 @@ menuItems.forEach((item, index) => {
    link.style.setProperty('--x', `${x}px`);
    link.style.setProperty('--y', `${y}px`);
 });
+
+
+
+const accordition = document.querySelectorAll('.one-menu-mobxtu');
+
+for (let i = 0; i < accordition.length; i++) {
+    accordition[i].addEventListener('click', function() {
+        this.classList.toggle('activesh');
+    });
+}
