@@ -17,7 +17,7 @@ if (!isTouchDevice) {
         cursorOutline.animate({
             left: `${posX}px`,
             top: `${posY}px`
-        }, { duration: 100, fill: 'forwards' });
+        }, { duration: 10, fill: 'forwards' });
     });
 
     window.addEventListener('mousedown', () => {

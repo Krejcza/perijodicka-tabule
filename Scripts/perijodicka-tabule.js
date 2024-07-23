@@ -26,7 +26,7 @@ const tableElements = {
        skupenstvi: 'Plynový',
        fact: 'Vodík se použývá jako raketový palyvo díky svý visoký energický hustoťe. Přy spalování s kislíkem vodík poskituje velmy silnej tach.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 79.png",
      },
      {
        name: "Helium",
@@ -53,9 +53,9 @@ const tableElements = {
        vzhled: 'Bezbarvej plyn',
        kategorie: 'Vzácný plyny',
        skupenstvi: 'Plynový',
-       fact: 'Díki svojí níský hustotě a bespečnosti jě helijum používaný k plnění balónkú a vzducholoďí.',
+       fact: 'Díki svojí níský hustotě a bespečnosti jě helijum používaný k plnění balónkú a vsducholoďí.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 81.png",
      },
      {
        name: "Lithium",
@@ -84,7 +84,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Lithium je dúležytou sloškou v lithiovejch baterijích který sou šyroce použývaný v přenosnejch elektronyckejch zařýzeních jako sou mobilňí telefony, noutbuky a elektrycký vozydla.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 82.png",
      },
      {
        name: "Beryllium",
@@ -113,7 +113,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Berylium se viskytuje v některejch drahokamech. Nejbjěžnější sou smarakdy (zelená forma berylu) a akvamarýny (modrá forma berylu). Tyle drahokami sou ceněný pro svoji krásu a použývaj se v klenotňictví.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 83.png",
      },
      {
        name: "Bor",
@@ -142,7 +142,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Bor je nezbitnej pro rúst rostlyn, protože je klýčovim prvkem v procesu tvorbi buňečnejch stěn. Je součásťí hnojif a vížyvnejch přýpravkú, kerý zvyšujou ůrody a zlepšujou kvalytu ploďin.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 84.png",
      },
      {
        name: "Uhlík",
@@ -171,7 +171,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Dijamant je jednim z nejtvrdšých známejch materijálú a použývá se v prúmyslovejch aplykacích pro řezáňí a broušení. Grafyt se využívá jako mazyvo a ve výrobjě tužek.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 85.png",
      },
      {
        name: "Dusík",
@@ -200,7 +200,7 @@ const tableElements = {
        skupenstvi: 'Plynový',
        fact: 'Dusík se použývá jako chlaďicí médijum v krijogenní technologiji pro uchováváňí biologyckejch vzorkú a vírobu supravoďičú.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 86.png",
      },
      {
        name: "Kyslík",
@@ -229,7 +229,7 @@ const tableElements = {
        skupenstvi: 'Plynový',
        fact: 'V potápječství je kyslík dúležitej pro zásobováňí potápjěčú, abi mohli dejchat pod vodou. Tenle kyslík je obvikle dodávanej ve formně stlačenýho plynu nebo smněsi s jinejma plynama.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 87.png",
      },
      {
        name: "Fluor",
@@ -258,7 +258,7 @@ const tableElements = {
        skupenstvi: 'Plynový',
        fact: 'Fluor se aplikuje na povrchy rúznejch materijálú jako ochrana proťi korozňím procesúm a adhezy nečystot.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 88.png",
      },
      {
        name: "Neon",
@@ -287,7 +287,7 @@ const tableElements = {
        skupenstvi: 'Plynový',
        fact: 'Neon se často použývá ve svjetelnejch reklamách a značeňí, kde se elektryckym proudem přiváďí do víbojek, čymž vitváří charakterystický svjětelný zářeňí rúznejch barev.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 89.png",
      },
      {
        name: "Sodík",
@@ -316,7 +316,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Sodík je nezbytnej pro žyvot. Hrajě klýčovou roly v udržováňí rovnováhy tekuťin v těle, přenosu nervovejch impulzú a svalový kontrakcy. Lidský ťělo ho zýskává především ze soly (chlorid sodnej, NaCl).',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 90.png",
      },
      {
        name: "Hořčík",
@@ -345,7 +345,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Hořčík se použývá v automobylovim prúmyslu pro vírobu lechkejch sliťin, kerý sňižujou celkovou hmotnost vozydel a zlepšujou jejych palyvovou ůčinost a víkon.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 91.png",
      },
      {
        name: "Hliník",
@@ -374,7 +374,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Hliník se použývá ve výrobjě letadel, aut, stavebňích materijálú, obalú, elektroniky a spousta dalších prúmyslovejch a spotřebňích produktú.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 92.png",
      },
      {
        name: "Křemík",
@@ -403,7 +403,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Křemík je výc a výc dúležitym materijálem v oblasťi vískumu a vývoje v elektronice. Stále se vivíjejýcí technologije umožňujou vírobu čipú s vyší hustotou tranzystorú, coš vede k pokročylejšim funkcím a vyší výkonosťi elektronickejch zařízeňí.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 93.png",
      },
      {
        name: "Fosfor",
@@ -432,7 +432,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Bílej fosfor byl v minulosťi používanej ve válečnejch konflyktech jako zápalná zbraň. Jěho schopnost samovolnýho vsplanutí přy stiku s kislíkem z něj čyňí efektyvní zbraň pro poškozeňí materijálu i liďí.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 94.png",
      },
      {
        name: "Síra",
@@ -461,7 +461,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Tradičňí střelnej prach (černej prach) se vyrábý smýcháňím síry, dřevjěnýho uhlý a draselnýho ledku. Černej prach se pak použývá jako základňí sloška pro vírobu ohňostrojú, kde se mýchá s rúznejma barvama.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 95.png",
      },
      {
        name: "Chlor",
@@ -490,7 +490,7 @@ const tableElements = {
        skupenstvi: 'Plynový',
        fact: 'Chlor se použývá třeba jako desynfekčňí prostředek pro čyšťění vody a bazénú, gde ňičí bakterije a vyry. Múže se viužívat i jako bjělící čiňidlo v papýrenskym prúmislu.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 96.png",
      },
      {
        name: "Argon",
@@ -519,7 +519,7 @@ const tableElements = {
        skupenstvi: 'Plynový',
        fact: 'V elektronickym prúmyslu se argon použývá na vírobu lejsrú kerý se používaj napříklat v chyrurgiji nebo při spracování rúznejch materiálú.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 97.png",
      },
      {
        name: "Draslík",
@@ -548,7 +548,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Draselný soly mastnejch kiselyn se použývaj přy výrobjě tekutejch mejdel a detergentú.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 98.png",
      },
      {
        name: "Vápník",
@@ -577,7 +577,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Vápník se použývá jako součást léčyv a doplňkú stravi pro prevency a léčbu osteoporózi a jinejch kostňích poruch.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 99.png",
      },
      {
        name: "Skandium",
@@ -606,7 +606,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Díki svojí schopnosťi zvišovat pevnost a sňižovat hmotnost se skandijový sliťiny používaj u sportovňího vibavení jako sou napříklat golfový hole, bejsbolový pálky nebo jýzdňí kola.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 100.png",
      },
      {
        name: "Titan",
@@ -635,7 +635,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Titan se dost použývá v leteckym prúmyslu pro vírobu lechkejch a pevnejch materijálú kerý sňižujou hmotnost letadel a zároveň zvišujou jejych odolnost proťi extrémnim podmýnkám letu.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 101.png",
      },
      {
        name: "Vanad",
@@ -664,7 +664,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: ' Vanad se často použývá jako legura pro ocel, coš zvišuje jejý pevnost, tvrdost a odolnost proťi opotřebeňí. Vanadový ocely jsou použývaný v automobilovym prúmyslu (pružyny), vírobjě nástrojú a u konstrukce mostú a budov.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 102.png",
      },
      {
        name: "Chrom",
@@ -693,7 +693,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Chrom se nejvýc používá jako legura pro vírobu nerezový ocely. Tahle ocel kombynuje železo, chrom a dalšý prvky coš zajyšťuje jejý odolnost vúči korozy a extrémnim podmínkám. Tahle ocel se využývá v kuchyňskejch náčiňích, chemickym prúmyslu, stavebňictví nebo výrobjě automobilú.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 103.png",
      },
      {
        name: "Mangan",
@@ -722,7 +722,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Mangan se nejvýc používá jako legura pro vírobu ocely. Manganový ocele maj výborný mechanický vlastnosťi jako je tvrdost a pevnost a sou používaný v automobylovim prúmyslu, stavebňictví nebo energetyce.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 104.png",
      },
      {
        name: "Železo",
@@ -751,7 +751,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Železo se používá pro vírobu rúznejch stavebňích materijálú, včetňe ocelovejch nosňíků, sloupú a betonovejch výstuží. Poskituje pevnost a stabylitu moderňim budovám, mostúm a infrastruktúře.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 105.png",
      },
      {
        name: "Kobalt",
@@ -780,7 +780,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Kobalt se viužívá v lithijum-jontových akumulátorech pro elektrycký vozidla, mobilňí telefony a další přenosný elektronický zařízení. Sloužý jako součást katodovýho materijálu kterej zvišuje víkon a žyvotnost baterijí.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 106.png",
      },
      {
        name: "Nikl",
@@ -809,7 +809,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Legování želéza chromem a niklem vitváří sliťiny s visokou odolností proťi korozy a teplotňím zmněnám který se používaj v kuchyňskejch spotřebyčích, chemickym prúmyslu a stavebňictví. Třeba přýbory nebo dřez.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 107.png",
      },
      {
        name: "Měď",
@@ -838,7 +838,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Měď je nejčastějy používanym materijálem pro vírobu elektrickejch vodičú a kabelú ďíky svojy visoký elektrický vodivosti a níský elektrický rezistyvitě.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 108.png",
      },
      {
        name: "Zinek",
@@ -867,7 +867,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Zinek se často použývá jako ochranej povlak pro ocelový konstrukce a jiný vjeci. Tenle proces zahrnuje pokrití kovu tenkou vrstvou zinku, coš uďělá ochranou barijéru proti korozy. Třeba u hudebňích nástrojú.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 109.png",
      },
      {
        name: "Gallium",
@@ -896,7 +896,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Galium se použývá v elektronyckejch zařýzeňích, a to konkrétňe v polovodičovym prúmyslu. Je součásťí materyjálů pro vírobu LED dijod, lejsrú a visokofrekvenčních mykrovlnejch obvodú.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 166.png",
      },
      {
        name: "Germanium",
@@ -925,7 +925,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Má výborný optický vlastnosťi pro infračervený a tepelný oblasťi spektra. Použývá se v optickejch soustavách jako sou čočky a zrcadla pro infračervený systémy. Třeba termovyzňí kamery a přýstrojě pro noční vydění.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 111.png",
      },
      {
        name: "Arsen",
@@ -954,7 +954,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Arsen bil často používanej ve starovjěku jako jěd. V obdobý renezance bil známej jako "král jědú" kvúli jeho použytí v polityckejch atentátech.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 112.png",
      },
      {
        name: "Selen",
@@ -983,7 +983,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Selen je dúležitym materijálem pro vírobu určytejch tipú fotovoltajickejch článkú. Napříklat v kombynaci s mnědí tvořej selenid mědi (CIGS), coš jě technologije slunečních panelú.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 113.png",
      },
      {
        name: "Brom",
@@ -1012,7 +1012,7 @@ const tableElements = {
        skupenstvi: 'Kapalný',
        fact: 'Brom se použýval dříf jako součást fotografyckejch emulzý a filmú pro záznam obrazu. Dneska se jěho viužití v tomle odvjětví sňížilo kvúli digytální technologiji.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 114.png",
      },
      {
        name: "Krypton",
@@ -1041,7 +1041,7 @@ const tableElements = {
        skupenstvi: 'Plynový',
        fact: 'Krypton se použývá jako alternatyva k argonu pro naplňění žárovek coš umožňuje dosáhnout lepšýho svjětelnýho víkonu přy stejný spotřebje energije.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 115.png",
      },
      {
        name: "Rubidium",
@@ -1070,7 +1070,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Rubidium se použývá jako standartní základ pro přesnou kalybraci časomněrnejch a mněřicích přýstrojú, jako sou atomový hoďiny a spektrometry.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 116.png",
      },
      {
        name: "Stroncium",
@@ -1099,7 +1099,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Sloučeniny stroncia jsou známé pro svou schopnost vytvářet intenzivní rudé barvy ve fyrotechnice a pyrotechnických představeních.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 117.png",
      },
      {
        name: "Yttrium",
@@ -1128,7 +1128,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Yttrium se použývá v MRI (Magnetycká rezonance) kontrastňích látkách pro zvíšení kontrastu na sňímkách a lepšý vyzualizaci tkáňí.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 118.png",
      },
      {
        name: "Zirkonium",
@@ -1157,7 +1157,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Zirkonium se použývá pro vírobu obalú palivovejch tyčí v jadernejch reaktorech, kde zajyšťuje stabylitu a odolnost v extrémňích teplotách a radijaci.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 119.png",
      },
      {
        name: "Niob",
@@ -1186,7 +1186,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Niob se použývá v leteckym a kosmyckym prúmyslu pro vírobu motorú a konstrukčňích materyálú, ďíky svojí odolnosti proťi vysokejm teplotám a lechkosti.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 120.png",
      },
      {
        name: "Molybden",
@@ -1215,7 +1215,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Molybden se často přydává do ocelý pro zlepšeňí mechanickejch vlastnosťí, odolnosti vúčy korozňim procesúm a teplotní stabylitě. Třeba přy vírobjě sylně mechanicky namáhanejch čásťí - děla.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 121.png",
      },
      {
        name: "Technecium",
@@ -1244,7 +1244,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Technecium-99m je yzotop technecija ktrej se šyroce použývá v medicínskejch aplykacích pro diagnostický obrazy pomocý počýtačový tomografije (CT). Použývá se pro sledováňí rúznejch orgánú a tkáňí v ťěle.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 122.png",
      },
      {
        name: "Rutenium",
@@ -1273,7 +1273,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Slitiny Ruthenia se často použývaj v elektryckejch kontaktech a spojých kvúli jejych vysoký odolnosťi proťi opotřebení a stabylitě přy vysokejch teplotách. Například v zapalovacých svýčkách u aut.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 123.png",
      },
      {
        name: "Rhodium",
@@ -1302,7 +1302,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Rhodium se použývá jako povlak pro šperky a hoďinky kvúli svýmu lesku, odolnosťi vúči poškrábání a žloutnutí.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 124.png",
      },
      {
        name: "Palladium",
@@ -1331,7 +1331,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Palladium je ceňěnej materijál pro vírobu šperkú ďíky svýmu lesku, odolnosťi proťi poškrábání a hipoalergeňím vlastnostem.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 125.png",
      },
      {
        name: "Stříbro",
@@ -1360,7 +1360,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Stříbro se tradyčně použývá pro vírobu šperkú jako sou náhrdelňíky, náramky a prsteny. Ďíky svýmu lesku, odolnosťi vúči korozy a relatyvně níský ceně ve srovnáňí s jinejma drahejma kovama.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 126.png",
      },
      {
        name: "Kadmium",
@@ -1389,7 +1389,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Kadmium se použývá v některejch tipech baterijí jako sou nikl-kadmiové (NiCd) akumulátory, kerý maj dobrý elektrický vlastnosťi a dlouhou žyvotnost.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 127.png",
      },
      {
        name: "Indium",
@@ -1418,7 +1418,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Indium se použývá v elektrotechnxckejch aplykacích a to konkrétňe ve formně indium-oksidovejch vrstev (ITO) kerý sloužej jako transparentňí elektrody v dotikovejch dysplejích, LCD monytorech a slunečňích článkách.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: ".../images/images-periodic-table/Frame 128.png",
      },
      {
        name: "Cín",
@@ -1447,7 +1447,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Cín se použývá pro vírobu plechovejch obalú a kontejnerú pro potravyny a nápoje, díki jěho odolnosťi proťi chemickejm látkám a potravynám.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 129.png",
      },
      {
        name: "Antimon",
@@ -1476,7 +1476,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Historycky se antimon použýval ve formně antimonovýho sulfidu jako žlutej pygment ve vítvarňictví a barvách.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 130.png",
      },
      {
        name: "Tellur",
@@ -1505,7 +1505,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Tellur se použývá v polovoďičovym prúmyslu pro vírobu termoelektryckejch materijálú jako jě třeba chlaďící boks nebo polovodičovejch zařýzení jako sou infračervený detektory.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 131.png",
      },
      {
        name: "Jod",
@@ -1534,7 +1534,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Jod se použývá jako antyseptikum k desynfekci ran a kúže. Dál jě nezbitnej pro produkcy lékú a je dúležitym prvkem v jodovaný soli, coš pomáhá přetcházet nedostatkúm jodu v lydský stravjě.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 132.png",
      },
      {
        name: "Xenon",
@@ -1563,7 +1563,7 @@ const tableElements = {
        skupenstvi: 'Plynový',
        fact: 'Xenon se použývá v ňekterejch víbojkách a svjětelnejch zdrojých. Konkrétňe ve xenonovejch svjětlometech automobilú a ve fylmovejch svjětlometech pro vírobu intenzyvňího býlýho svjetla. Ňěkdi i u majákú.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 133.png",
      },
      {
        name: "Cesium",
@@ -1592,7 +1592,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'V laborkách se cesium použývá pro vískumný účely. Napříklat pro studijum atomový fyzyky a kvantový mechaniky, ďíky jěho specyfickejm vlastnostem a reaktivitě.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 134.png",
      },
      {
        name: "Baryum",
@@ -1621,7 +1621,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Baryum se použývá jako kontrastňí látka přy rentgenovejch višetřeních trávýcího traktu kde umožňujě lékařúm vydět vňitřní struktúry a diagnózu rúznejch gastrointestynálňích onemocnění.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 135.png",
      },
      {
        name: "Lanthan",
@@ -1650,7 +1650,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Lanthanový sloučeňiny se využývaj ve vírobjě skel a optickejch vláken, kerý maj visokou odolnost a optyckou prúhlednost.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 136.png",
      },
      {
        name: "Cer",
@@ -1679,7 +1679,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Oksidy céričitý se viužívaj v barvách a glazurách pro keramický vírobky a sklo, ďíky jejych schopnosťi poskitnout žádoucí barevný efekty a lesk. Zlepšý lesk a odolnost proťi opotřebeňí.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 137.png",
      },
      {
        name: "Praseodym",
@@ -1708,7 +1708,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Praseodym je součásťí neodymijovejch magnetú který sou silný a trvanlivý, coš jě dělá ideálňíma pro rúzný aplykace v elektronice a strojýrenství.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 138.png",
      },
      {
        name: "Neodym",
@@ -1737,7 +1737,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Neodym je klýčovou sloškou neodymiovejch magnetú kerý sou nejsylnějšíma komerčňě dostupnejma trvalejma magnetama. Použývaj se v elektronyce (sluchátka), lékařstvý (MRI) nebo energetyce.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 139.png",
      },
      {
        name: "Promethium",
@@ -1766,7 +1766,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Promethium-147 se použývá jako zdroj energije v jadernejch bateryjích (RTG). Tyle baterije maj viužiťí ve vesmýrnejch sondách a dalšých zařýzeňích gde jě potřeba spolehlyvej a dlouhodobej zdroj energije.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 140.png",
      },
      {
        name: "Samarium",
@@ -1795,7 +1795,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Samarium-kobaltový magnety sou silný trvalý magnety viužívaný ve specyalizovanejch aplykacích jako sou senzori, motory a mykrofony.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 141.png",
      },
      {
        name: "Europium",
@@ -1824,7 +1824,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Europium se přidává do materiálů pro výrobu LED diod kerý sou třeba i v semaforech a využývaj jeho schopnost emytovat svjětlo rúznejch barev.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 142.png",
      },
      {
        name: "Gadolinium",
@@ -1853,7 +1853,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Gadolinium se použývá jako kontrastňí čynidlo v medycínský diagnostyce pro zlepšeňí kvalyty obrazú získanejch pomocý magnetický resonance (MRI).',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 118.png",
      },
      {
        name: "Terbium",
@@ -1882,7 +1882,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Terbium se použývá ve fosforovejch materijálech pro vírobu zelenejch LED dijod a komponentú pro dyspleje a svjetelný zdrojě. Najdou se třeba ve starejch televizých.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 143.png",
      },
      {
        name: "Dysprosium",
@@ -1911,7 +1911,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Dysprosium se viužívá v lejsrovejch zařýzeňích pro vírobu rúznejch tipú lejsrú kerý nacházej uplatnění v prúmislovejch a vjědeckejch aplykacích. Třeba v sistémech LiDAR na mněření vzdálenosťi nebo tvořeňí topografyckejch map.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 144.png",
      },
      {
        name: "Holmium",
@@ -1940,7 +1940,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Holmium se použývá pro záznam dat v magnetoptyckejch diskách kde jě schopno uchovávat informace v optycký formně. Teť uš se samozřejmně moc nepoužývaj.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 145.png",
      },
      {
        name: "Erbium",
@@ -1969,7 +1969,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Erbium se použývá jako apsorbent neutronú v jadernejch reaktorech pro regulacy štěpný reakce.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 119.png",
      },
      {
        name: "Thulium",
@@ -1998,7 +1998,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Thuliumový sloučeňiny sou použývaný v solárňích článkách pro konverzy slunečňí energije na elektryckou energiji.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 113.png",
      },
      {
        name: "Ytterbium",
@@ -2027,7 +2027,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Ytterbium se šyroce použývá v lejsrovejch technologyjích pro rúzný aplykace v prúmyslu a vjedě. Napříklat v komunykacích pro visokorychlostňí optický přenosi dat a zlepšeňí sygnálu.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 146.png",
      },
      {
        name: "Lutecium",
@@ -2056,7 +2056,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Lutecium se viužývá v medycíně pro vírobu radijofarmak pro dyagnostický a terapeutický účeli. Konkrétňe v jaderný medycíně pro léčbu nádorovejch onemocnění a rakovyny.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 147.png",
      },
      {
        name: "Hafnium",
@@ -2085,7 +2085,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Hafnium se použývá jako stavebňí materijál v jadernejch reaktorech, zejména pro svojy schopnost apsorbovat neutrony coš pomáhá regulovat šťěpnou reakcy.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 119.png",
      },
      {
        name: "Tantal",
@@ -2114,7 +2114,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Tantalový materijáli se využívaj v medycíně pro vírobu chyrurgickejch implantátú, protože sou bijokompatybilňí a maj visokou odolnost v lydskim ťele.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 148.png",
      },
      {
        name: "Wolfram",
@@ -2143,7 +2143,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Wolfram se viužívá ve specyjálňích slytinách pro vírobu prúmyslovejch nástrojú jako sou vrtáki a frézy, ďíki sví tvrdosťi a odolnosťi.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 149.png",
      },
      {
        name: "Rhenium",
@@ -2172,7 +2172,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Rhenium se použývá ve specijálňích slyťinách pro vírobu turbýnovejch lopatek v leteckym a raketovim prúmyslu, ďíky jěho vysoký teplotňí stabylitě a odolnosťi v ekxtrémňích podmýnkách.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 150.png",
      },
      {
        name: "Osmium",
@@ -2201,7 +2201,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Osmiumový sliťiny se ňěkdy viužívaj v oftalmologyji pro vírobu nástrojú a implantátú použývanejch přy očňích operacých.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 151.png",
      },
      {
        name: "Iridium",
@@ -2228,9 +2228,9 @@ const tableElements = {
        vzhled: 'Šedej kov',
        kategorie: 'Přechodný kovy',
        skupenstvi: 'Pevný',
-       fact: 'Iridium se viužívá jako katalizátor v chemyckym prúmyslu pro rúzný chemycký reakce, napříklat hidrogenace. Ďíky svojy odolnosťi jě taky součásťí specijálních sliťin použývanejch ve vírobě prúmyslovejch nástrojú a zařýzení.',
+       fact: 'Iridium se viužívá jako katalizátor v chemyckym prúmyslu pro rúzný chemycký reakce, napříklat hidrogenace. Ďíky svojy odolnosťi jě taky součásťí specijálních sliťin použývanejch ve vírobě prúmyslovejch nástrojú a zařýzení. Třeba v zapalovacých svýčkách do aut.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 123.png",
      },
      {
        name: "Platina",
@@ -2259,7 +2259,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Využývá se v zubňích náhradách a srdečňích kardyjoostymulátorech ďíki svojy bijokompatibylitě.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 152.png",
      },
      {
        name: "Zlato",
@@ -2286,9 +2286,9 @@ const tableElements = {
        vzhled: 'Žlutej kov',
        kategorie: 'Přechodný kovy',
        skupenstvi: 'Pevný',
-       fact: 'Ďíky svojy visoký elektrycký voďivosti se zlato použývá v elektronickejch kontaktech a konektorech, zejména tam gde jě zapotřebý spolehlivího a trvanlyvýho spojění.',
+       fact: 'Ďíky svojy visoký elektrycký voďivosti se zlato použývá v elektronickejch kontaktech a konektorech, zejména tam gde jě zapotřebý spolehlivího a trvanlyvýho spojění. Stařšý generace ho furt použývaj jako investyční nástroj.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 153.png",
      },
      {
        name: "Rtuť",
@@ -2317,7 +2317,7 @@ const tableElements = {
        skupenstvi: 'Kapalný',
        fact: 'Rtut se ňěkdy použývá v lékařství a to konkrétňe pro vírobu teplomněrú na bázi rtuťi.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 154.png",
      },
      {
        name: "Thallium",
@@ -2344,9 +2344,9 @@ const tableElements = {
        vzhled: 'Šedej kov',
        kategorie: 'Kovy',
        skupenstvi: 'Pevný',
-       fact: 'Hystoricky bilo thallium použývaný v elektronickejch součástkách, napříklat ve fotocelulárňích článkách, avšak kúli jěho toksickosti se tole viužiťí v praxy omezuje.',
+       fact: 'Visoce toksický sloučeňiny Thalia se používaly jako součást některejch prostřetkú na hubeňí kris a hmizu. Jěho použiťí v jedech bylo zakázaný ve vjětšiňě zemý svjěta ve vosumdesátkách.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 155.png",
      },
      {
        name: "Olovo",
@@ -2375,7 +2375,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Olovo se použývá pro vírobu střelyva do brokovňic nebo třeba vsduchovek pro sportovňí a loveckí ůčely.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 156.png",
      },
      {
        name: "Bismut",
@@ -2404,7 +2404,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Ve formně bismutovýho subgallátu se viužývá v kosmetickejch přýpravcích jako sou pudri, kde púsobjej jako apsorbent.',
        radioactive: false,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 157.png",
      },
      {
        name: "Polonium",
@@ -2433,7 +2433,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'V minulosťi bilo polonium použývaný v termoelektryckejch generátorech pro kosmycký sondy, kde bilo viužíváno pro jěho radijoaktivňí rospad k vírobjě elektrycký energije.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 158.png",
      },
      {
        name: "Astat",
@@ -2462,7 +2462,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Astat má potencyjální využytí v radijoterapyji pro cýlennou léčbu nádorovejch onemocnění, a to ďíki jěho schopnosťi emytovat zářeňí alfa čásťic.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 147.png",
      },
      {
        name: "Radon",
@@ -2489,9 +2489,9 @@ const tableElements = {
        vzhled: 'Bezbarvej plyn',
        kategorie: 'Vzácný plyny',
        skupenstvi: 'Plynový',
-       fact: 'Radon se použývá k detekcy prúňiku vodňích par, kerý proňikaj do technickejch sistémú.',
+       fact: 'Radon se použývá jako přyrozenej stopovač pro sledováňí pohibu podzemňích vod. Jěho přýtomnost múže indykovat prameny podzemňích vod, prúsaky a jiný geologycký aktyvity.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 159.png",
      },
      {
        name: "Francium",
@@ -2520,7 +2520,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Francium se skoumá pro svojy roly ve fizikálňích experymentech a teoretyckejch modelech, konkrétňe v oblasťi kvantový mechanyky a jaderný fizyky.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 164.png",
      },
      {
        name: "Radium",
@@ -2549,7 +2549,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'V geologiji se radium použývá pro určováňí stáří horňin a sedymentú pomocý radijokarbonovýho datování.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 160.png",
      },
      {
        name: "Aktinium",
@@ -2578,7 +2578,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Aktinium-225 se studujě pro potencijál v cýlený radijačňí terapiji přy léčbjě nádorovejch onemocňění.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 147.png",
      },
      {
        name: "Thorium",
@@ -2607,7 +2607,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Thorium se skoumá jako alternativňí palyvo pro jaderný reaktory. Má potencijál produkovat jadernou energiji efektivnějy a bespečňeji neš tradiční uranový palyvo.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 119.png",
      },
      {
        name: "Protaktinium",
@@ -2636,7 +2636,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Viužívá se v radijometrickejch mněřeňích a detektorech radijoaktyvity.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 161.png",
      },
      {
        name: "Uran",
@@ -2665,7 +2665,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Uran je klýčovim palyvem pro jaderný reaktori, kde docházý k jěho šťepení coš uvolňujě energiji. Tenle proces se nazívá jaderná štěpná reakce.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 119.png",
      },
      {
        name: "Neptunium",
@@ -2694,7 +2694,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Neptunium se požývá jako palyvo nebo se viužývá přy šťěpení pro produkcy energije v jadernejch reaktorech.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 119.png",
      },
      {
        name: "Plutonium",
@@ -2723,7 +2723,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Plutonium-239 je klýčovim materijálem pro vírobu jadernejch zbraňí. Jěho vysoká radijoaktivyta a schopnost šťěpit se ho ďělá ideálňim pro víbušný jaderný štěpný reakce.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 162.png",
      },
      {
        name: "Americium",
@@ -2752,7 +2752,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Americium-241 se použývá v ijonyzačňích detektorech kouře kerý se nacházej v kouřovejch detektorech. Tyle detektory reagujou na prúchod ijonyzujícího záření přy zapáleňí požáru a mohou fčas varovat přet nebespečym.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 163.png",
      },
      {
        name: "Curium",
@@ -2779,9 +2779,9 @@ const tableElements = {
        vzhled: 'Střýbřiťe kovovej kov',
        kategorie: 'Aktinoidy',
        skupenstvi: 'Pevný',
-       fact: 'Curium-244 se dá použýt třeba jako zdroj intenzyvňího gama zářeňí v prúmyslový radijografyji pro skoumání materijálú a kontrolu kvalyty.',
+       fact: 'Curium-244 se dá použýt třeba jako zdroj intenzyvňího gama zářeňí v prúmyslový radijografyji pro skoumání materijálú a kontrolu kvalyty. Jynak pro vískum v oblasťi jaderný fyzyky a chemije.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 164.png",
      },
      {
        name: "Berkelium",
@@ -2810,7 +2810,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Berkelium se viužívá ke studiju jadernejch reakcý a struktúry atomovejch jader. Jěho vlastnosti jako radijoaktyvního izotopu sou klýčové pro pochopeňí fizikálních procesú ve velmy těškejch prvkách.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 134.png",
      },
      {
        name: "Kalifornium",
@@ -2839,7 +2839,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: "Ďíky svý schopnosti emytovat gama zářeňí se kalifornium použývá v detektorech radijace a jako standart pro kalybraci mněřýcích zařýzení v jaderný a vískumný laboratoři.",
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 164.png",
      },
      {
        name: "Einsteinium",
@@ -2868,7 +2868,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Výskumný instytuce skoumaj einsteinium pro možný aplykace v novejch technologijích a materijálech, včetňě jěho potencijálu v jaderný energityce a v oblasťi materijálovejch vjěd.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 134.png",
      },
      {
        name: "Fermium",
@@ -2897,7 +2897,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Fermium je dúležitý pro vískum v oblasťi jaderný fyzyky a chemije. Jěho vlastnosťi umožňujou vjědcúm studovat chováňí a interakce atomovejch jader za ekstrémňích podmýnek.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 164.png",
      },
      {
        name: "Mendelevium",
@@ -2926,7 +2926,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Mendelevium se použývá k vískumu jadernejch reakcý a struktúry atomovejch jader. Jěho schopnost emytovat rúzný druhi ijonizujícýho záření jě klýčová pro studijum fizikálních procesú na mykroskopický úrovňi.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 134.png",
      },
      {
        name: "Nobelium",
@@ -2955,7 +2955,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Nobelium se použývá k vískumu jaderný chemije a fiziky. Jěho vlastnosťi umožňujou vjědcúm studovat chováňí atomovejch jader a provádět pokročilý eksperymenty na mykroskopycký úrovňi.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 164.png",
      },
      {
        name: "Lawrencium",
@@ -2984,7 +2984,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'V laboratorkách se lawrencium použývá k studiju chemyckejch a fyzykálňích vlastnosťí těškejch prvkú a jejych interakcý s jinejma látkama.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 134.png",
      },
      {
        name: "Rutherfordium",
@@ -3013,7 +3013,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'V laborkách se Rutherfordium viužívá k eksperymentúm zamněřenym na pochopeňí chemickejch a fyzykálňích vlastnosťí těškejch prvkú a jejych reaktivitu.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 164.png",
      },
      {
        name: "Dubnium",
@@ -3042,7 +3042,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'V laborkách se dubnium použývá k experymentúm zamněřenim na pochopeňí chemyckejch a fyzykálňích vlastnosťí transuranovejch prvkú a jejych reaktivitu.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 134.png",
      },
      {
        name: "Seaborgium",
@@ -3071,7 +3071,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Seaborgium je klýčoví pro studijum jadernejch reakcý a chováňí atomovejch jader za extrémňích podmýnek. Vjědcy ho využívaj k porozumněňí struktúry a vlastnosťí těškejch prvkú.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 164.png",
      },
      {
        name: "Bohrium",
@@ -3100,7 +3100,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Přestože bohrium nemá žádný praktycký prúmyslový aplykace kvúli svojy visoké radijoaktivitě, je nesbitný pro rozvoj vjědy a technologije. Vísletky vizkumu mohou výst k novejm objevúm v oblasťi materijálovejch vjěd a jaderný technologije.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 134.png",
      },
      {
        name: "Hassium",
@@ -3129,7 +3129,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Pomocý hassia se skoumaj extrémňí podmýnky, za kterejch se tvořej těšký prvky a studuje se jejych stabylita a vlastnosťi. Tenle vískum přyspívá k rozvojy jaderný chemije a fisiky.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 164.png",
      },
      {
        name: "Meitnerium",
@@ -3158,7 +3158,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Meitnerium je dúležytý pro studjium jadernejch reakcý a chováňí atomovejch jader. V laborkách se používá k eksperymentúm zamněřenym na pochopeňí chemyckejch a fizikálních vlastnosťí transuranovejch prvkú.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 134.png",
      },
      {
        name: "Darmstadtium",
@@ -3187,7 +3187,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Darmstadtium se použývá ke studyju reakcý mezy jadernejma částicema a vívojy novejch metod pro sintézu ťěškejch prvkú.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 164.png",
      },
      {
        name: "Roentgenium",
@@ -3216,7 +3216,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'V laboratorkách se skoumaj fisikální a chemycký vlastnosťi roentgenia za exstrémňích podmýnek coš přyzpívá k rozvojy jaderný chemije a fiziky.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 134.png",
      },
      {
        name: "Kopernicium",
@@ -3245,7 +3245,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Copernicium jě víznamný pro studijum jadernejch reakcý a chováňí těškejch prvkú. Exsperymenty s ňim přispívaj k poznáňí procesú přy vitváření a rospadu jader.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 164.png",
      },
      {
        name: "Nihonium",
@@ -3274,7 +3274,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'V laborkách se skoumaj fisikální a chemický vlastnosťi nihonia za ekstrémňích podmínek coš jě dúležitý pro pokrok v jaderný chemiji a fyzyce.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 134.png",
      },
      {
        name: "Flerovium",
@@ -3303,7 +3303,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Florovium jě důležitý pro studyjum jadernejch reakcý a vlastnosťí ťěškejch prvkú. Experymenty s ňim přiyzpívaj k poznáňí procesú vitvářeňí a rospadu jader.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 164.png",
      },
      {
        name: "Moscovium",
@@ -3332,7 +3332,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Výskum moscovia má za cýl rosšýřit naše poznání o těškejch prvkách a jejych možnejch aplykacích v pokročylejch technologijých a materijálovejch vjědách.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 134.png",
      },
      {
        name: "Livermorium",
@@ -3361,7 +3361,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'V laboratořých se skoumaj fizikální a chemický vlastnosťi livermoria za ekstrémňích podmýnek coš je potřebný pro pokrok v jaderný chemiji a fizice.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 164.png",
      },
      {
        name: "Tennessin",
@@ -3390,7 +3390,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Tennessin je dúležitej pro studijum jadernejch reakcý a vlastnosťí těškejch prvkú. Exsperymenty s ňim přyspívaj k poznáňí procesú vitvářeňí a rospadu jader.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 134.png",
      },
      {
        name: "Oganesson",
@@ -3419,7 +3419,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Vízkum organessonu má za cýl rozšýřit naše poznáňí o nejtěšších prvkách v přýrodě a jejych možnejch aplykacích v jaderný chemiji a materijálovejch vjědách.',
        radioactive: true,
-       image_prvek: "../images/images-periodic-table/1.png",
+       image_prvek: "../images/images-periodic-table/Frame 164.png",
      }
    ]
  };
@@ -3476,7 +3476,7 @@ const tableElements = {
        </div>
      </div>
      <div class="fakt-wrapper-lxeu">
-       <p class="about-one-p-per-el faktissxa">Zajýmavej fakt:</p>
+       <p class="about-one-p-per-el faktissxa uzh">Zajýmavej fakt:</p>
        <p class="about-one-p faktissxa"> ${element.fact}</p>
      </div>
      <p><a href="${element.source}" class="wiki-how-ppp" target="_blank"><i class="fa-solid fa-book-bookmark"></i> Výc na wikyňe tu</a></p>

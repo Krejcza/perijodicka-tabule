@@ -1,3 +1,30 @@
+.notificationx{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 75px;
+   border: 5px solid #323232;
+   border-radius: 25px;
+   font-size: 1rem;
+   font-weight: 600;
+   margin-bottom: 2rem;
+   color: #2F184B;
+}
+
+.notificationx i{
+   margin-left: 1rem;
+}
+
+.notificationx.success-form{
+   background-color: #7ceb74;
+}
+
+.notificationx.error-form{
+   background-color: #ff5858;
+}
+
+
+
 .form-write-me{
    display: flex;
    align-items: center;
@@ -5,14 +32,12 @@
    margin: 5rem 0;
 }
 
-
-
 .form-wrapper{
-   width: 80%;
+   width: 70%;
    display: flex;
    justify-content: center;
    align-items: center;
-   height: 700px;
+   height: 600px;
    background: linear-gradient(45deg,#C8B1E4, #9B72CF);
    border-radius: 50px;
    border: 5px solid #323232;
@@ -27,7 +52,7 @@
 
 .form-ind-picks label{
    margin-bottom: 1rem;
-   font-size: 1.5rem;
+   font-size: 1.25rem;
    font-weight: 600;
    color: #2F184B;
 }
@@ -54,14 +79,13 @@
 }
 
 .namesss, .genderrr, .emailll, .messageee{
-   padding: 15px 20px;
-   font-size: 1.5rem;
-   font-weight: 500;
+   padding: 5px 20px;
+   font-size: 1.25rem;
    margin-bottom: 2rem;
    border-radius: 25px;
    outline: none;
    border: none;
-   border: 5px solid #323232;
+   border: 3px solid #323232;
    transition: 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
    background: #F4EFFA;
 }
@@ -71,7 +95,7 @@
 }
 
 .namesss{
-   height: 75px;
+   height: 55px;
 }
 
 .namesss:active{
@@ -79,7 +103,7 @@
 }
 
 .genderrr{
-   height: 75px;
+   height: 55px;
 }
 
 .genderrr:active{
@@ -87,7 +111,7 @@
 }
 
 .emailll{
-   height: 75px;
+   height: 55px;
 }
 
 .emailll:active{
@@ -97,6 +121,7 @@
 .messageee{
    height: 100%;
    resize: none;
+   padding: 10px 20px;
 }
 
 .messageee:active{
@@ -104,30 +129,23 @@
 }
 
 .send-it-bro{
-   width: 100%;
+   width: 50%;
+   margin: 0 auto;
    outline: none;
    border: none;
    background:#2F184B;
    color: #F4EFFA;
-   height: 75px;
+   height: 55px;
    border-radius: 25px;
-   font-size: 1.5rem;
-   font-weight: 500;
-   border: 5px solid #323232;
+   font-size: 1.25rem;
+   border: 3px solid #323232;
    transition: 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .send-it-bro:hover{
    background: #F4EFFA;
    color: #2F184B;
-   font-weight: 600;
 }
-
-
-
-
-
-
 
 .main-low-text{
    display: flex;
@@ -139,17 +157,9 @@
 }
 
 .main-low-text p{
-   font-size: 1.5rem;
-   font-weight: 500;
+   font-size: 1.25rem;
+   color: #323232;
 }
-
-
-
-
-
-
-
-
 
 .social-media-tags ul {
    display: flex;
@@ -237,9 +247,7 @@
       height: auto;
       justify-content: center;
       align-items: center;
-      background: linear-gradient(45deg,#C8B1E4, #9B72CF);
       border-radius: 40px;
-      border: 5px solid #323232;
    }
 
    .namesss, .genderrr, .emailll{
@@ -272,15 +280,7 @@
    }
    
    .send-it-bro{
-      width: 100%;
-      outline: none;
-      border: none;
-      background:#532B88;
-      color: #F4EFFA;
-      height: 55px;
-      border-radius: 20px;
-      font-weight: 500;
-      border: 5px solid #323232;
+      border: 3px solid #323232;
       transition: 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
    }
  }
@@ -300,22 +300,17 @@
    
    .form-ind-picks label{
       margin-bottom: 1rem;
-      font-size: 1.25rem;
-      font-weight: 600;
       color: #2F184B;
       text-align: center;
    }
 
    .namesss, .genderrr, .emailll{
       padding: 10px 20px;
-      margin-bottom: 1rem;
-      font-size: 1.25rem;
       text-align: center;
    }
 
    .messageee{
       padding: 15px 20px;
-      font-size: 1.25rem;
       margin-bottom: 1rem;
    }
    
@@ -351,13 +346,21 @@
 
    
    .send-it-bro{
-      font-size: 1.25rem;
-      font-weight: 500;
+      width: 60%;
    }
  }
 
 
  @media only screen and (max-width: 600px){
+
+   .form-wrapper{
+      border: 3px solid #323232;
+   }
+
+   .notificationx{
+      border: 3px solid #323232;
+   }
+
    .part-social{
       display: flex;
       flex-direction: column;
@@ -367,13 +370,11 @@
 
    .main-low-text p{
       font-size: 1rem;
-      font-weight: 500;
    }
    
    .form-ind-picks label{
       margin-bottom: 1rem;
       font-size: 1rem;
-      font-weight: 600;
       color: #2F184B;
       text-align: center;
    }
@@ -412,7 +413,7 @@
    
    .send-it-bro{
       font-size: 1rem;
-      font-weight: 500;
+      width: 100%;
    }
  }
    

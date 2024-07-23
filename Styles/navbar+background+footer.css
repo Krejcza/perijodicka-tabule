@@ -11,7 +11,7 @@ body {
    padding: 15px;
    display: flex;
    position: fixed;
-   z-index: 9999;
+   z-index: 5000;
    left: 0;
    top: 0;
    width: 100%;
@@ -32,7 +32,7 @@ body {
    border-radius: 25px;
    width: 800px;
    min-height: 400px;
-   color: #323232;
+   color: #F4EFFA;
    display: flex;
    flex-direction: row-reverse;
    row-gap: 2rem;
@@ -87,7 +87,6 @@ body {
    border-radius: 15px;
    padding: 10px;
    outline: none;
-   cursor: pointer;
    font-size: 1rem;
    font-weight: 600;
    transition: 0.3s ease-out;
@@ -108,6 +107,12 @@ body {
    color: #2F184B;
 }
 
+.btn-numer-un:hover, 
+.btn-numer-tw:hover{
+   background-color: #F4EFFA;
+   color: #2F184B;
+}
+
 .close-warn {
    position: absolute;
    top: 1rem;
@@ -121,7 +126,6 @@ body {
 .close-warn:focus {
    color: #323232;
    text-decoration: none;
-   cursor: pointer;
 }
 
 .no-scrolling {
@@ -170,7 +174,7 @@ body {
    color: #532B88;
    text-decoration: none;
    font-weight: 600;
-   font-size: 1.15rem;
+   font-size: 1.25rem;
    text-align: center;
 }
 
@@ -183,7 +187,6 @@ body {
 .svg-ham-logo{
    display: none;
    z-index: 1000;
-   cursor: pointer;
 }
 
 .logo-periodic svg{
@@ -194,7 +197,6 @@ body {
 .svg-cross-logo{
    display: none;
    z-index: 1001;
-   cursor: pointer;
 }
 
 
@@ -245,7 +247,7 @@ body {
    text-decoration: none;
    color: #532B88;
    font-weight: 600;
-   font-size: 1.15rem;
+   font-size: 1.25rem;
    text-align: center;
 }
 
@@ -429,7 +431,7 @@ body {
    text-decoration: none;
    color: #C8B1E4;
    font-weight: 600;
-   font-size: 1.15rem;
+   font-size: 1.25rem;
    transition: 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
@@ -543,7 +545,7 @@ body {
 @media only screen and (max-width: 1300px){
    .main-landing-mm-backgr{
       background-image: url('data:image/svg+xml,<svg width="3440" height="2445" viewBox="0 0 3440 2445" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2075.5 647.5C2081.5 795.5 1589.5 1005 1135.5 1015.5C681.5 1026 0 975.5 0 975.5V1570C0 1570 663 1555 1021 1569.5C1379 1584 1721.95 1609.31 1920.5 1809C1958.48 1847.19 1989 1885.5 2075.5 2078C2162 2270.5 2431.5 2323.5 2523 2350C2614.5 2376.5 3440 2445 3440 2445V0H2419.5C2419.5 0 1680 18 1660.5 229C1641 440 2068 462.5 2075.5 647.5Z" fill="url(%23paint0_linear_89_350)"/><defs><linearGradient id="paint0_linear_89_350" x1="1720.25" y1="0" x2="1720.25" y2="1789" gradientUnits="userSpaceOnUse"><stop stop-color="%239B72CF"/><stop offset="1" stop-color="%23532B88"/></linearGradient></defs></svg>')
-   };
+   }
 }
 
 
@@ -581,7 +583,7 @@ body {
       padding-right: 40px;
       padding-left: 40px;
       z-index: 5000;
-      height: 60px;
+      height: 80px;
    }
 }
 
@@ -625,7 +627,7 @@ body {
    }
 
    .modal-warning-content-part h2{
-      font-size: 1.5rem;
+      font-size: 1.25rem;
       font-weight: 700;
       color: #2F184B;
       text-align: center;
@@ -688,6 +690,22 @@ body {
 @media only screen and (max-width: 600px){
    .main-landing-mm-backgr{
       background-image: url('data:image/svg+xml,<svg width="3440" height="1624" viewBox="0 0 3440 1624" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2010 405.001C1992 567.5 1589.5 489 1135.5 499.5C681.5 510 0 459.5 0 459.5V748.501C0 748.501 663 733.5 1021 748C1379 762.501 1721.95 787.811 1920.5 987.5C1958.48 1025.69 1989 1064 2075.5 1256.5C2162 1449 2431.5 1502 2523 1528.5C2614.5 1555 3440 1623.5 3440 1623.5V5.00124H2419.5C2419.5 5.00124 1683 -39 1683 150.5C1683 317.5 2022 296.663 2010 405.001Z" fill="url(%23paint0_linear_89_350)"/><defs><linearGradient id="paint0_linear_89_350" x1="1720.25" y1="5" x2="1720.25" y2="1794" gradientUnits="userSpaceOnUse"><stop stop-color="%239B72CF"/><stop offset="1" stop-color="%23532B88"/></linearGradient></defs></svg>')
+   }
+
+   .footer-sec-two ul li a{
+      text-decoration: none;
+      color: #C8B1E4;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+   }
+
+   .footer-sec-three ul li a{
+      text-decoration: none;
+      color: #2F184B;
+      font-weight: 500;
+      font-size: 1.5rem;
+      transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
    }
 }
 

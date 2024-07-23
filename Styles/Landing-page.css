@@ -78,14 +78,17 @@
    transition: 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-.one-batn:hover .landing-btn.one-land-btn{
-   background: #F4EFFA;
-   color: #532B88;
+.landing-btn a{
+   text-decoration: none;
+   color: #F4EFFA;
 }
 
-.one-batn:hover .landing-btn.two-land-btn{
+.landing-btn:hover{
    background: #F4EFFA;
-   color: #532B88;
+}
+
+.landing-btn:hover a{
+   color: #2F184B;
 }
 
 .stickman-w-eyes{

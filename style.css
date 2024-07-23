@@ -12,6 +12,7 @@
    font-family: 'Quicksand', sans-serif;
    scroll-behavior: smooth;
    cursor:none;
+   font-weight: 500;
 }
 
 *::selection{
@@ -61,8 +62,6 @@
 
 
 .name-of-heading{
-   font-size: 2rem;
-   color: #2F184B;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -70,9 +69,15 @@
    margin-top: 2rem;
 }
 
+.name-of-heading h2{
+   font-size: 1.5rem;
+   font-weight: 600;
+   color: #2F184B;
+}
+
 .white-box-upper{
    content: '';
-   height: 100px;
+   height: 5rem;
 }
 
 
@@ -82,10 +87,12 @@
    align-items: center;
    justify-content: center;
    text-align: center;
+   margin-bottom: 5rem;
+}
+
+.main-top-topic h1{
    font-size: 2rem;
    color: #2F184B;
-   font-weight: 700;
-   margin-bottom: 2rem;
 }
 
 .main-top-topic svg{
@@ -100,9 +107,8 @@
 }
 
 .main-upper-text p{
-   font-size: 1.5rem;
+   font-size: 1.25rem;
    color: #323232;
-   font-weight: 500;
    margin-bottom: 2rem;
 }
 
@@ -113,12 +119,10 @@
 
 .main-upper-text p .first-ps{
    color: #532B88;
-   font-weight: 600;
 }
 
 .main-upper-text p .second-ps{
    color: #9B72CF;
-   font-weight: 600;
 }
 
 #progress-br{
@@ -155,6 +159,33 @@
    color: #323232;
 }
 
+ 
+.pillar-shake {
+   animation: shake 0.5s ease;
+}
+ 
+.icon-animation {
+   display: inline-block;
+   transition: transform 0.5s ease;
+}
+ 
+.icon-rotate {
+   animation: rotate 0.5s ease;
+}
+ 
+@keyframes rotate {
+   from { transform: rotate(0deg); }
+   to { transform: rotate(360deg); }
+}
+ 
+@keyframes shake {
+   0% { transform: translateX(0); }
+   25% { transform: translateX(-5px); }
+   50% { transform: translateX(5px); }
+   75% { transform: translateX(-5px); }
+   100% { transform: translateX(0); }
+}
+
 
 
 .background-alt-pgs{
@@ -164,9 +195,34 @@
    background-size: cover;
 }
 
+.ml6 {
+   position: relative;
+   font-size: 3.3em;
+ }
+ 
+ .ml6 .text-wrapper {
+   position: relative;
+   display: inline-block;
+   padding-top: 0.2em;
+   padding-right: 0.05em;
+   padding-bottom: 0.1em;
+   overflow: hidden;
+ }
+ 
+ .ml6 .letter {
+   display: inline-block;
+   line-height: 1em;
+   font-weight: 600;
+ }
+
 
 
 @media only screen and (max-width: 1000px){
+
+   .white-box-upper{
+      content: '';
+      height: 10rem;
+   }
    
    #progress-br{
       position: fixed;
@@ -202,6 +258,13 @@
       color: #323232;
    }
 
+   
+.background-alt-pgs{
+   z-index: -1;
+   background-position: top center;
+   background-size: contain;
+}
+
 }
 
 
@@ -215,8 +278,7 @@
 
    
    .name-of-heading{
-      font-size: 1.5rem;
-      color: #2F184B;
+      text-align: center;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -224,16 +286,15 @@
       margin-top: 2rem;
    }
 
-   .main-top-topic{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
+   .name-of-heading h2{
       font-size: 1.25rem;
+      font-weight: 600;
       color: #2F184B;
+   }
+
+   .main-top-topic h1{
+      font-size: 1.75rem;
       font-weight: 700;
-      margin-bottom: 2rem;
    }
 
    .main-top-topic svg{
@@ -243,7 +304,6 @@
    .main-upper-text p{
       font-size: 1rem;
       color: #323232;
-      font-weight: 500;
    }
    
    .main-upper-text svg{
