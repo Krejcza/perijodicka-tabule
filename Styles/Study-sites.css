@@ -1,0 +1,82 @@
+.pick-a-study-wrap{
+   background: linear-gradient(45deg,#C8B1E4, #9B72CF);
+   width: 100%;
+   margin-bottom: 5rem;
+}
+
+.pick-a-study-big{
+   padding: 30px;
+   position: relative;
+}
+
+.pick-study-all{
+   width: 100%;
+   display: flex;
+   column-gap: 2rem;
+   overflow-x: auto;
+}
+
+.pick-study-all::-webkit-scrollbar{
+   display: none;
+}
+
+.pick-study-one{
+   white-space: nowrap;
+   background: linear-gradient(45deg,#532B88, #9B72CF);
+   border: 3px solid #323232;
+   padding: 15px;
+   border-radius: 15px;
+}
+
+.pick-study-one a{
+   text-decoration: none;
+   color: #F4EFFA;
+   font-size: 1rem;
+}
+
+.pick-study-one.pickedd{
+   background: #F4EFFA;
+}
+
+.pick-study-one.pickedd a{
+   color: #2F184B;
+}
+
+.pick-study-icon{
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   width: 6rem;
+   height: 100%;
+   display: flex;
+   align-items: center;
+}
+
+.pick-study-icon.hidenwqs{
+   display: none;
+}
+
+.pick-study-icon i{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 3rem;
+   height: 3rem;
+   border-radius: 50%;
+   background-color: yellow;
+}
+
+.pick-study-icon i:hover{
+   background: green;
+}
+
+.pick-study-icon:first-child{
+   left: 0;
+   background: linear-gradient(to right #532B88 45%, transparent);
+}
+
+.pick-study-icon:last-child{
+   justify-content: flex-end;
+   right: 0;
+   background: linear-gradient(to right #9B72CF 45%, transparent);
+}

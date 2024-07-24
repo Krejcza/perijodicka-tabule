@@ -1,24 +1,39 @@
-const oneMenu = document.querySelectorAll('.one-menu-mobxtu .main-topyc');
+const mainTopycElements = document.querySelectorAll('.main-topyc')
+let currentIndeks = 0
+let animationTimeout
 
-        oneMenu.forEach((element, index) => {
-            setTimeout(() => {
-                // Reset all elements' background color
-                oneMenu.forEach(el => el.style.background = '');
+function resetStyles() {
+    mainTopycElements.forEach(el => {
+        el.classList.remove('rightnower')
+    })
+}
 
-                // Set current element's background color to gradient
-                element.style.background = 'linear-gradient(225deg,#fff, #000)';
-            }, index * 2000);
-        });
+function highlightElement(index) {
+    resetStyles()
 
-        // Restart the cycle
-        setInterval(() => {
-            oneMenu.forEach((element, index) => {
-                setTimeout(() => {
-                    // Reset all elements' background color
-                    oneMenu.forEach(el => el.style.background = '');
+    const element = mainTopycElements[index]
+    element.classList.add('rightnower')
+}
 
-                    // Set current element's background color to gradient
-                    element.style.background = 'linear-gradient(225deg,#fff, #000)';
-                }, index * 2000);
-            });
-        }, oneMenu.length * 2000);
+function startHighlighting() {
+    highlightElement(currentIndeks)
+
+    currentIndeks = (currentIndeks + 1) % mainTopycElements.length
+
+    animationTimeout = setTimeout(startHighlighting, 3000)
+}
+
+function stopHighlighting() {
+    clearTimeout(animationTimeout)
+    resetStyles()
+}
+
+
+startHighlighting()
+
+
+mainTopycElements.forEach(item => {
+    item.addEventListener('click', () => {
+        stopHighlighting()
+    })
+})

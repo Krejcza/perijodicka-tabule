@@ -31,8 +31,14 @@
    border-radius: 25px 25px 25px 25px;
    font-size: 1rem;
    border: 3px solid #323232;
-   transition: 1s ease-out;
+   transition: 0.5s ease-out;
    z-index: 6;
+}
+
+.main-topyc.rightnower {
+   background: #F4EFFA;
+   transform: scale(1.05);
+   color: #532B88;
 }
 
 .one-menu-mobxtu .main-content-study{
@@ -53,6 +59,15 @@
    z-index: 5;
 }
 
+.ml16.what-about-us{
+   font-size: 1rem;
+   color:#323232;
+   padding: 0px;
+   text-transform: none;
+   letter-spacing: 0rem;
+   overflow: hidden;
+}
+
 .one-menu-mobxtu.activesh .main-content-study{
    height: 250px;
    padding: 15px;
@@ -62,6 +77,10 @@
 
 .main-topyc.activesh{
    border-radius: 25px 25px 0 0; 
+}
+
+.one-menu-mobxtu .main-content-study a{
+   width: 100%;
 }
 
 .one-menu-mobxtu .main-content-study button{
@@ -385,6 +404,8 @@
    color: #323232;
    margin-bottom: 5rem;
 }
+
+
 
 
 @media only screen and (max-width: 1200px){

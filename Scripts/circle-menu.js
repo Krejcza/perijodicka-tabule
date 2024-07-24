@@ -53,24 +53,30 @@ const accordition = document.querySelectorAll('.one-menu-mobxtu');
 
 for (let i = 0; i < accordition.length; i++) {
     accordition[i].addEventListener('click', function() {
-        this.classList.toggle('activesh');
-        
+
+        const isActive = this.classList.contains('activesh');
+
+
         for (let j = 0; j < accordition.length; j++) {
+            accordition[j].classList.remove('activesh');
             const icon = accordition[j].querySelector('.main-topyc i');
-            const mainTopic = accordition[j].querySelector('.main-topyc')
-            
-            if (accordition[j].classList.contains('activesh')) {
-                icon.classList.add('fa-book-open');
-                icon.classList.remove('fa-book-skull');
-                mainTopic.classList.add('activesh');
-            } else {
-                icon.classList.remove('fa-book-open');
-                icon.classList.add('fa-book-skull');
-                mainTopic.classList.remove('activesh');
-            }
+            const mainTopic = accordition[j].querySelector('.main-topyc');
+            icon.classList.remove('fa-book-open');
+            icon.classList.add('fa-book-skull');
+            mainTopic.classList.remove('activesh');
+        }
+
+        if (!isActive) {
+            this.classList.add('activesh');
+            const icon = this.querySelector('.main-topyc i');
+            const mainTopic = this.querySelector('.main-topyc');
+            icon.classList.add('fa-book-open');
+            icon.classList.remove('fa-book-skull');
+            mainTopic.classList.add('activesh');
         }
     });
 }
+
 
 
 let currentIndex = 0;
