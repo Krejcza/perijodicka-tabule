@@ -161,6 +161,20 @@ body {
    transition: 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
+.nav-origin ul li.highhlight{
+   transform: translateY(5px);
+}
+
+.nav-origin ul li.highhlight a{
+   color: #323232;
+}
+
+.nav-origin ul li.highhlight a p span{
+   color: #532B88;
+}
+
+
+
 .nav-origin ul li:hover{
    transform: translateY(10px);
 }
@@ -241,6 +255,19 @@ body {
    align-items: center;
    justify-content: space-evenly;
    list-style-type: none;
+}
+
+
+.part-of-nav li.activep{
+   transform: translateY(2.5px);
+}
+
+.part-of-nav li.activep a{
+   color: #323232;
+}
+
+.part-of-nav li.activep a p span{
+   color: #532B88;
 }
 
 .part-of-nav li a{

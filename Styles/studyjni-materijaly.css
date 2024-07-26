@@ -140,6 +140,7 @@
    padding: 30px;
    border: 3px solid #323232;
    min-height: 125px;
+   height: 150px;
    display: flex;
    flex-direction: column;
    align-items: center;
