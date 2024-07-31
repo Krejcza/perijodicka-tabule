@@ -51,8 +51,8 @@ if (!isTouchDevice) {
             cursorDot.style.borderRadius = '25%';
             cursorDot.style.backgroundColor = '#2F184B'
 
-            cursorOutline.style.width = '20px';
-            cursorOutline.style.height = '20px';
+            cursorOutline.style.width = '5px';
+            cursorOutline.style.height = '5px';
             cursorOutline.style.borderRadius = '35%';
             cursorOutline.style.borderColor = '#323232'
             cursorOutline.style.boxShadow = '0px 0px 20px #F4EFFA'

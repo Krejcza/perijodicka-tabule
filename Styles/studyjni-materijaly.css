@@ -198,15 +198,20 @@
 }
 
 .studium-materijals-text-hswj p{
-   flex: 3;
+   flex: 1;
    font-size: 1.25rem;
    color: #323232;
 }
 
 .studium-materijals-text-hswj svg{
-   flex: 2;
-   height: 400px;
+   height: 350px;
+   width: auto;
 }
+
+.svg-big.this-is-flex-one{
+   flex: 1;
+}
+
 
 .studium-materijals-text-hswj.reversed-tws{
    display: flex;
@@ -233,7 +238,7 @@
 
 .svg-kick-wrap svg{
    flex: 1;
-   height: 350px;
+   height: 450px;
    width: auto;
 }
 
@@ -490,12 +495,10 @@
 
    .studium-materijals-text-hswj p{
       font-size: 1rem;
-      color: #323232;
    }
    
    .studium-materijals-text-hswj.reversed-tws p{
       font-size: 1rem;
-      color: #323232;
    }
 
    .single-pillar{
