@@ -30,13 +30,15 @@ window.onload = function() {
 
     const showModal = () => {
         if (modal) {
+            modal.classList.remove("hid");
             modal.style.display = "flex";
             document.body.classList.add("no-scroll");
         }
     };
-
+    
     const hideModal = () => {
         if (modal) {
+            modal.classList.add("hid");
             modal.style.display = "none";
             document.body.classList.remove("no-scroll");
         }

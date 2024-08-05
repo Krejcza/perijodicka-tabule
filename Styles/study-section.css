@@ -4,20 +4,20 @@
   align-items: center;
   justify-content: center;
   row-gap: 2rem;
-  margin-top: 5rem;
-  margin-bottom: 10rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   column-gap: 2rem;
   border: 5px solid #323232;
-  border-radius: 50px;
+  border-radius: 35px;
   padding: 30px;
-  background: linear-gradient(45deg,#C8B1E4, #9B72CF);
+  background: #F4EFFA;
 }
 
 .studium-materials{
    display: flex;
    flex-direction: column;
    justify-content: space-around;
-   margin-bottom: 10rem;
+   margin-bottom: 2rem;
 }
 
 .studium-mat-wrapper a{
@@ -29,14 +29,14 @@
 
 .card-title-mat {
    color: #2F184B;
-   font-size: 1.5rem;
+   font-size: 1.25rem;
    font-weight: 600;
    transition: all 0.5s ease-out;
+   text-align: center;
  }
  
  .small-desc-mat {
    font-size: 1rem;
-   font-weight: 500;
    color: #F4EFFA;
    transition: all 0.5s ease-out;
  }
@@ -46,8 +46,8 @@
    align-items: center;
    justify-content: center;
    position: absolute;
-   width: 3rem;
-   height: 3rem;
+   width: 5rem;
+   height: 1.5rem;
    overflow: hidden;
    top: 0;
    right: 0;
@@ -75,14 +75,13 @@
    border: 5px solid #323232;
    position: relative;
    width: 300px;
-   height: 200px;
+   height: 175px;
    border-radius: 40px;
    padding: 20px 20px;
    text-decoration: none;
    z-index: 0;
    overflow: hidden;
    background: linear-gradient(45deg,#532B88, #9B72CF);
-   font-family: Arial, Helvetica, sans-serif;
  }
  
  .card-mat::before {
@@ -90,10 +89,10 @@
    position: absolute;
    z-index: -1;
    top: -16px;
-   right: -16px;
+   right: 0px;
    background: #2F184B;
-   height: 32px;
-   width: 32px;
+   height: 1rem;
+   width: 2rem;
    border-radius: 25px;
    transform: scale(1);
    transform-origin: 50% 50%;
@@ -113,18 +112,35 @@
  }
 
 
- @media screen and (max-width: 708px) {
-   .small-desc-mat {
-      display: none;
-    }
+ @media screen and (max-width: 800px) {
+  .studium-mat-wrapper{
+    row-gap: 1rem;
+    border: 3px solid #323232;
+    padding: 15px;
+    border-radius: 25px;
+  }
 
-    .card-mat {
-      width: 300px;
-      height: 100px;
-    }
-
-    .card-title-mat {
-      font-size: 1.25rem;
-    }
+  .card-mat {
+    border: 3px solid #323232;
+    width: 300px;
+    height: 175px;
+    border-radius: 25px;
+    padding: 15px;
+  }
  }
  
+
+ @media screen and (max-width: 600px){
+  .card-title-mat {
+    font-size: 1rem;
+  }
+
+  .card-mat {
+    border: 3px solid #323232;
+    width: 100%;
+    height: 125px;
+    border-radius: 25px;
+    padding: 15px;
+  }
+ }
+

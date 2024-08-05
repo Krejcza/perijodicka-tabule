@@ -6,6 +6,12 @@ iconInteractiveWraps.forEach((iconWrap) => {
 
     if (textInteractive) {
       textInteractive.classList.toggle('showerr');
+
+      if (textInteractive.classList.contains('showerr')) {
+        setTimeout(() => {
+          textInteractive.classList.remove('showerr');
+        }, 5000);
+      }
     }
   });
 });

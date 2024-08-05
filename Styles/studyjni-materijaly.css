@@ -204,7 +204,7 @@
 }
 
 .studium-materijals-text-hswj svg{
-   height: 350px;
+   height: 450px;
    width: auto;
 }
 
@@ -223,7 +223,7 @@
 }
 
 .studium-materijals-text-hswj.reversed-tws svg{
-   height: 350px;
+   height: 450px;
 }
 
 
@@ -524,6 +524,21 @@
       font-size: 1rem;
       color: #323232;
       margin-bottom: 5rem;
+   }
+
+   .svg-kick-wrap svg{
+      flex: 1;
+      height: 350px;
+      width: auto;
+   }
+
+   .studium-materijals-text-hswj svg{
+      height: 350px;
+      width: auto;
+   }
+   
+   .studium-materijals-text-hswj.reversed-tws svg{
+      height: 350px;
    }
    
 }

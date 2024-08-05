@@ -1418,7 +1418,7 @@ const tableElements = {
        skupenstvi: 'Pevný',
        fact: 'Indium se použývá v elektrotechnxckejch aplykacích a to konkrétňe ve formně indium-oksidovejch vrstev (ITO) kerý sloužej jako transparentňí elektrody v dotikovejch dysplejích, LCD monytorech a slunečňích článkách.',
        radioactive: false,
-       image_prvek: ".../images/images-periodic-table/Frame 128.png",
+       image_prvek: "../images/images-periodic-table/Frame 128.png",
      },
      {
        name: "Cín",

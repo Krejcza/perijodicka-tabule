@@ -2,8 +2,8 @@
    display: flex;
    flex-direction: column;
    align-items: center;
-   row-gap: 5rem;
-   margin-bottom: 10rem;
+   row-gap: 2rem;
+   margin-bottom: 2rem;
 }
 
 .about-project-text{
@@ -13,20 +13,18 @@
 }
 
 .about-text-proj-one{
-   font-size: 1.5rem;
+   font-size: 1.25rem;
    color: #323232;
-   font-weight: 500;
 }
 
 .pac-a-pusu{
-   font-size: 3rem;
+   font-size: 2rem;
    font-family: 'OhWhale', sans-serif;
    color: #2F184B;
    text-align: right;
 }
 
 .about-project-image{
-   min-height: 50vh;
    flex: 1;
    display: flex;
    align-items: flex-start;
@@ -43,7 +41,7 @@
    display: flex;
    flex-direction: row;
    column-gap: 5rem;
-   row-gap: 5rem;
+   row-gap: 2rem;
    perspective: 1000px;
 }
 
@@ -151,19 +149,26 @@
 
 .flip-card-back h3 {
    font-size: 1.25rem;
-   transform: translateZ(30px); /* Posunutí nadpisu na ose Z */
+   transform: translateZ(30px);
 }
 
 .bro {
-   font-weight: 700;
+   font-weight: 600;
    font-size: 1rem;
-   transform: translateZ(30px); /* Posunutí textu na ose Z */
+   transform: translateZ(30px);
+}
+
+.bro .fa-arrow-right{
+   margin-left: 5px;
+}
+
+.bro .fa-arrow-left{
+   margin-right: 5px;
 }
 
 .job {
    margin: 10px 0;
-   font-weight: 400;
-   transform: translateZ(20px); /* Posunutí textu na ose Z */
+   transform: translateZ(20px);
    color: #C8B1E4;
 }
 
@@ -190,16 +195,11 @@
       flex-direction: column;
    }
 
-   
    .about-text-proj-one{
       font-size: 1rem;
-      color: #323232;
-      font-weight: 500;
    }
 
    .pac-a-pusu{
       font-size: 2rem;
-      font-family: 'OhWhale', sans-serif;
-      color: #2F184B;
    }
 }

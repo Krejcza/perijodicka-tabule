@@ -8,12 +8,12 @@ anime.timeline({loop: false})
     translateY: ["1.1em", 0],
     translateZ: 0,
     duration: 750,
-    delay: (el, i) => 50 * i
+    delay: (el, i) => 100 * i
   }).add({
     targets: '.ml6',
     duration: 1000,
     easing: "easeOutExpo",
-    delay: 1000
+    delay: 1000,
   });
 
 
@@ -24,7 +24,7 @@ anime.timeline({loop: false})
   
   anime.timeline({loop: true})
     .add({
-      targets: '.ml16 .letter',
+      targets: '.ml16 .letter', 
       translateY: [-100,0],
       easing: "easeOutExpo",
       duration: 1400,

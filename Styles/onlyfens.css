@@ -16,9 +16,8 @@
 
 .scene-of {
   display: inline-block;
-  width: 200px;
-  height: 260px;
-  margin: 2rem 0;
+  width: 250px;
+  height: 250px;
   perspective: 1000px;
 }
 
@@ -31,7 +30,7 @@
   transform-origin: center right;
   transition: transform 1s;
   border-radius: 25px;
-  border: 5px solid black;
+  border: 5px solid #323232;
 }
 
 .card-onlyfens.is-flipped {
@@ -44,7 +43,7 @@
   height: 100%;
   color: #F4EFFA;
   text-align: center;
-  font-size: 40px;
+  font-size: 3rem;
   backface-visibility: hidden;
   border-radius: 20px;
   display: flex;
@@ -54,7 +53,7 @@
 
 .card-face-front {
   background: #2F184B;
-  transition: 0.5s;
+  transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .card-face-front::before{
@@ -62,8 +61,8 @@
    position: absolute;
    bottom: 0;
    right: 0;
-   width: 32px;
-   height: 32px;
+   width: 2rem;
+   height: 2rem;
    border-radius: 15px 0px 20px 0px;
    background: #F4EFFA;
 }
@@ -77,38 +76,48 @@
   transform: rotateY(180deg);
   padding: 15px;
   display: flex;
-  color: #000;
+  color: #323232;
   flex-direction: column;
 }
 
-.photo-onlyfens p{
-   font-size: 0.75rem;
-}
-
 .photo-onlyfens svg{
-   flex: 2;
-   width: 175px;
+   width: 100%;
 }
 
 .onlyfens-text{
-   font-size: 1.5rem;
+   text-align: center;
+   font-size: 1.25rem;
    color: #323232;
-   font-weight: 500;
 }
 
 .onlyfens-text.two{
-   font-size: 1.0rem;
+   font-size: 1.25rem;
    text-align: center;
 }
    
 
 
 
-@media screen and (max-width: 1000px) {
-   
-   .scene-of {
-      margin: 0;
+@media screen and (max-width: 800px) {
+   .card-onlyfens{
+      border: 3px solid #323232;
+   }
+
+   .cards-onlyfens-wrapper{
+      display: flex;
+      column-gap: 1rem;
+      row-gap: 1rem;
    }
 
  }
  
+
+@media screen and (max-width: 600px) {
+   .onlyfens-text{
+      font-size: 1rem;
+   }
+   
+   .onlyfens-text.two{
+      font-size: 1rem;
+   }
+}
