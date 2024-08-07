@@ -1,32 +1,40 @@
 <?php
 
-$name = strip_tags(trim($_POST["your-name"]));
-$name = str_replace(array("\r", "\n"), array(" ", " "), $name);
-$gender = strip_tags(trim($_POST["your-gender"]));
-$email = filter_var(trim($_POST["your-mail"]), FILTER_SANITIZE_EMAIL);
-$message = strip_tags(trim($_POST["your-message"]));
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
-    
+$name = htmlspecialchars(strip_tags(trim($_POST["your-name"])));
+$name = str_replace(array("\r", "\n"), array(" ", " "), $name);
+$gender = htmlspecialchars(strip_tags(trim($_POST["your-gender"])));
+$email = filter_var(trim($_POST["your-mail"]), FILTER_SANITIZE_EMAIL);
+$message = htmlspecialchars(strip_tags(trim($_POST["your-message"])));
+
 if (empty($name) || empty($message) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-   header("Location: https://www.perijodickatabule.cz/index.html?success=-1");
-   exit;
+    error_log("Redirecting to error page due to validation failure.");
+    header("Location: https://www.perijodickatabule.cz/napis-my.php?success=-1");
+    exit;
 }
 
-
+// Nastavení e-mailu
 $recipient = "krejci-lukas@seznam.cz";
+$subject = "Nová zpráva od: $name || Perijodická tabule";
 
-$subject = "Nová správa ot: $name || Perijodická tabule";
+$email_content = "Jméno: $name\n";
+$email_content .= "Gender: $gender\n";
+$email_content .= "Email: $email\n\n";
+$email_content .= "Zpráva:\n$message\n";
 
+$email_headers = "From: $name <$email>\r\n";
+$email_headers .= "Reply-To: $email\r\n";
 
-$email_content = "Méno: $name\n";
-$email_content .= "Gendr: $gender\n";
-$email_content .= "Mejl: $email\n\n";
-$email_content .= "Správa:\n$message\n";
-
-$email_headers = "From: $name <$email>";
-
-mail($recipient, $subject, $email_content, $email_headers);
-    
-header("Location:https://www.perijodickatabule.cz/index.html?success=1");
+// Odeslání e-mailu a přesměrování
+if (mail($recipient, $subject, $email_content, $email_headers)) {
+    error_log("Mail sent successfully. Redirecting to success page.");
+    header("Location: https://www.perijodickatabule.cz/napis-my.php?success=1");
+} else {
+    error_log("Failed to send mail. Redirecting to error page.");
+    header("Location: https://www.perijodickatabule.cz/napis-my.php?success=-1");
+}
+exit;
 
 ?>

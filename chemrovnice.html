@@ -1,6 +1,30 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
+   <script>
+      function checkAllowCookies() {
+        return document.cookie.split('; ').find(row => row.startsWith('allowCookies='));
+      }
+ 
+      function initializeGA4() {
+        if (checkAllowCookies()) {
+ 
+          var script = document.createElement('script');
+          script.src = 'https://www.googletagmanager.com/gtag/js?id=G-RTZJZ65YDL';
+          script.async = true;
+          document.head.appendChild(script);
+ 
+          script.onload = function() {
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RTZJZ65YDL');
+          };
+        }
+      }
+ 
+      initializeGA4();
+    </script>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="description" content="Tadi se ňeco naučýš o chemyckejch rovňicích. Tak hurá do učeňí!">
@@ -737,5 +761,20 @@
       ScrollReveal().reveal('.turtle', { delay: 100 });
       ScrollReveal().reveal('.turtle2', { delay: 200, distance: '100px', duration: 1000 });
    </script>
+   <script>
+      document.querySelector('.btn-numer-un').addEventListener('click', function() {
+        var expiresDate = new Date();
+        expiresDate.setTime(expiresDate.getTime() + (30 * 24 * 60 * 60 * 1000));
+        document.cookie = "allowCookies=true; expires=" + expiresDate.toUTCString() + "; path=/";
+        location.reload();
+      });
+ 
+      document.querySelector('.btn-numer-tw').addEventListener('click', function() {
+        var expiresDate = new Date();
+        expiresDate.setTime(expiresDate.getTime() + (30 * 24 * 60 * 60 * 1000));
+        document.cookie = "denyCookies=true; expires=" + expiresDate.toUTCString() + "; path=/";
+        location.reload();
+      });
+    </script>
 </body>
 </html>

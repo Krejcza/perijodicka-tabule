@@ -50,9 +50,9 @@
       height: 350px;
    }
 
-   .error-text-on h2{
+   .error-text-on p{
       font-size: 1rem;
-      text-align: center;
+      color: #323232;
    }
 
    .diskonected h2{

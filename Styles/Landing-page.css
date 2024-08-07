@@ -278,7 +278,6 @@
 
    .landing-text-and-pic{
       flex-direction: column-reverse;
-      height: 70vh;
       row-gap: 2rem;
       margin-top: 70px;
    }

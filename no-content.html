@@ -1,6 +1,30 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
+   <script>
+      function checkAllowCookies() {
+        return document.cookie.split('; ').find(row => row.startsWith('allowCookies='));
+      }
+ 
+      function initializeGA4() {
+        if (checkAllowCookies()) {
+ 
+          var script = document.createElement('script');
+          script.src = 'https://www.googletagmanager.com/gtag/js?id=G-RTZJZ65YDL';
+          script.async = true;
+          document.head.appendChild(script);
+ 
+          script.onload = function() {
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RTZJZ65YDL');
+          };
+        }
+      }
+ 
+      initializeGA4();
+    </script>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="description" content="Tadi ňic nehledej! Nesouhlasils s mojema podmýnkama, takže ses dostal sem. Jě tady vjětší prázdno jak na tvojy oslavjě narozeňin.">
@@ -35,7 +59,7 @@
       </svg>
       <h1 class="ml6">
          <span class="text-wrapper">
-            <span class="letters">Napiš my správu</span>
+            <span class="letters">Eror 404</span>
          </span>
       </h1>
       <svg width="64" height="127" viewBox="0 0 64 127" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -45,7 +69,7 @@
 
    <div class="error-text-wrap row">
       <div class="error-text-on">
-         <p>Ale ale, poďívejme kdo se to snažyl dostat na mojy stránku. Omlouvám se ťi, že to nevišlo. Nebo teda spýš ne, protože nesplňuješ moje podmýnky. Buť ses naroďil mněkej jako rozvařená nudle nebo se ťi nelíbjej pořádný chlapácký vibaveňíčka. Kašdopádňě tadi pro tebe nic nemám.</p>
+         <p>Ale ale, poďívejme kdo se to snažyl dostat na mojy stránku. Bohužel nebo možná bohuďík ťi to nevišlo. Žádný vomáčky bes humoru, kerý nestrpjěj srandu tadi toťiš nemaj přýstup. Tak sy seber svojě sakipaki a uťíkej za mamynkou!</p>
       </div>
       <div class="error-svg-pic">
          <svg width="500" height="350" viewBox="0 0 500 350" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -161,5 +185,20 @@
    <script src="Scripts/toTop-PopUP.js"></script>
    <script src="Scripts/heading-anim.js"></script>
    <script src="Scripts/paralax.js"></script>
+   <script>
+      document.querySelector('.btn-numer-un').addEventListener('click', function() {
+        var expiresDate = new Date();
+        expiresDate.setTime(expiresDate.getTime() + (30 * 24 * 60 * 60 * 1000));
+        document.cookie = "allowCookies=true; expires=" + expiresDate.toUTCString() + "; path=/";
+        location.reload();
+      });
+ 
+      document.querySelector('.btn-numer-tw').addEventListener('click', function() {
+        var expiresDate = new Date();
+        expiresDate.setTime(expiresDate.getTime() + (30 * 24 * 60 * 60 * 1000));
+        document.cookie = "denyCookies=true; expires=" + expiresDate.toUTCString() + "; path=/";
+        location.reload();
+      });
+    </script>
 </body>
 </html>
